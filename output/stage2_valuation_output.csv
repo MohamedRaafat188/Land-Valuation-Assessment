@@ -1,8 +1,8 @@
 record_type,land_id,price_per_sqm,similarity_score,point_value,address_multiplier,address_score,area_multiplier,area_score,general_location_multiplier,general_location_score,commercial_location_multiplier,commercial_location_score,admin_location_multiplier,admin_location_score,proximity_services_multiplier,proximity_services_score,proximity_main_road_multiplier,proximity_main_road_score,plot_proportions_multiplier,plot_proportions_score,far_csr_multiplier,far_csr_score,utilities_multiplier,utilities_score,total_points
-target,TARGET,N/A,N/A,N/A,1.0,0.1,1.0,0.1,1.0,0.15,0.8,0.08,0.6,0.03,1.0,0.1,1.0,0.1,1.0,0.1,1.0,0.1,0.8,0.08,0.94
+target,TARGET,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0.8,0.1455,0.6,0.0545,1.0,0.1818,1.0,0.1818,1.0,0.1818,N/A,N/A,0.8,0.1455,0.8909
 benchmark,EG-LAND-0447,28836.550011079104,0.6105,50590.4386,1.0,0.1,0.6,0.06,0.0,0.0,0.4,0.04,0.6,0.03,1.0,0.1,0.8,0.08,0.2,0.02,0.4,0.04,1.0,0.1,0.57
 benchmark,EG-LAND-0471,24450.67001013171,0.5998,48417.1683,1.0,0.1,0.4,0.04,0.2,0.03,1.0,0.1,0.4,0.02,0.8,0.08,0.4,0.04,0.2,0.02,0.35,0.035,0.4,0.04,0.505
 benchmark,EG-LAND-0401,13289.920004531039,0.5598,19544.0,0.6,0.06,0.8,0.08,0.4,0.06,0.6,0.06,0.4,0.02,1.0,0.1,1.0,0.1,0.6,0.06,0.6,0.06,0.8,0.08,0.68
 benchmark,EG-LAND-0125,22952.160009718173,0.539,40986.0,1.0,0.1,0.2,0.02,0.0,0.0,0.8,0.08,0.2,0.01,0.6,0.06,0.8,0.08,0.2,0.02,0.9,0.09,1.0,0.1,0.56
 benchmark,EG-LAND-0246,17924.5,0.5319,34470.1923,1.0,0.1,0.0,0.0,0.0,0.0,1.0,0.1,0.6,0.03,0.8,0.08,0.6,0.06,0.2,0.02,0.7,0.07,0.6,0.06,0.52
-result,VALUATION,36823.44,,39173.8686,,,,,,,,,,,,,,,,,,,,,0.94
+result,VALUATION,34900.0,,39173.8686,,,,,,,,,,,,,,,,,,,,,0.8909
