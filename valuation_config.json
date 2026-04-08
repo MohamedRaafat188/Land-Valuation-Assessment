@@ -1,0 +1,134 @@
+{
+  "stage1_similarity": {
+    "weights": {
+      "district":     0.20,
+      "coordinates":  0.15,
+      "zoning":       0.15,
+      "area":         0.15,
+      "road_width":   0.10,
+      "far_csr":      0.05,
+      "grades":       0.10,
+      "utilities":    0.05,
+      "recency":      0.05
+    },
+    "is_active": {
+      "district":     true,
+      "coordinates":  true,
+      "zoning":       true,
+      "area":         true,
+      "road_width":   true,
+      "far_csr":      true,
+      "grades":       true,
+      "utilities":    true,
+      "recency":      true
+    },
+    "top_k": 5
+  },
+
+  "stage2_factors": {
+    "weights": {
+      "address":             0.10,
+      "area":                0.10,
+      "general_location":    0.15,
+      "commercial_location": 0.10,
+      "admin_location":      0.05,
+      "proximity_services":  0.10,
+      "proximity_main_road": 0.10,
+      "plot_proportions":    0.10,
+      "far_csr":             0.10,
+      "utilities":           0.10
+    },
+    "is_active": {
+      "address":             true,
+      "area":                true,
+      "general_location":    true,
+      "commercial_location": true,
+      "admin_location":      true,
+      "proximity_services":  true,
+      "proximity_main_road": true,
+      "plot_proportions":    true,
+      "far_csr":             true,
+      "utilities":           true
+    }
+  },
+
+  "outlier_removal": {
+    "lower_percentile": 0.05,
+    "upper_percentile": 0.95
+  },
+
+  "area_categories": {
+    "lower_percentile": 0.33,
+    "upper_percentile": 0.66
+  },
+
+  "scoring_brackets": {
+    "pct_diff": {
+      "comment": "Used for: area, road_width, FAR/CSR similarity",
+      "thresholds": [5, 10, 20, 30, 50],
+      "scores":     [1.00, 0.80, 0.60, 0.40, 0.20, 0.00]
+    },
+    "distance_km": {
+      "comment": "Used for: general_location (haversine km)",
+      "thresholds": [0.5, 1, 2, 5, 10],
+      "scores":     [1.00, 0.80, 0.60, 0.40, 0.20, 0.00]
+    },
+    "commercial_distance_m": {
+      "comment": "Used for: commercial_location distance",
+      "thresholds": [200, 500, 1000, 2000],
+      "scores":     [1.00, 0.80, 0.60, 0.40, 0.20]
+    },
+    "admin_distance_m": {
+      "comment": "Used for: admin_location distance",
+      "thresholds": [200, 500, 1000, 2000],
+      "scores":     [1.00, 0.80, 0.60, 0.40, 0.20]
+    },
+    "services_distance_m": {
+      "comment": "Used for: proximity_services",
+      "thresholds": [300, 700, 1500, 3000],
+      "scores":     [1.00, 0.80, 0.60, 0.40, 0.20]
+    },
+    "main_road_distance_m": {
+      "comment": "Used for: proximity_main_road",
+      "thresholds": [150, 400, 800, 1500],
+      "scores":     [1.00, 0.80, 0.60, 0.40, 0.20]
+    },
+    "plot_ratio": {
+      "comment": "Used for: plot_proportions (depth/frontage ratio)",
+      "thresholds": [1.5, 2.0, 3.0, 4.0],
+      "scores":     [1.00, 0.80, 0.60, 0.40, 0.20]
+    },
+    "address": {
+      "same_district": 1.00,
+      "same_city_diff_district": 0.60,
+      "different_city": 0.00
+    },
+    "general_location_fallback": {
+      "same_district": 1.00,
+      "different_district": 0.50
+    },
+    "commercial_grade": {
+      "A": 1.00, "B": 0.80, "C": 0.60, "D": 0.40, "NonCommercial": 0.20
+    },
+    "admin_grade": {
+      "A": 1.00, "B": 0.80, "C": 0.60, "D": 0.40
+    },
+    "grade_ordinal": {
+      "A": 0, "B": 1, "C": 2, "D": 3, "NonCommercial": 4
+    }
+  },
+
+  "zoning_compatibility": {
+    "Residential|Residential": 1.0,
+    "Commercial|Commercial":   1.0,
+    "Mixed Use|Mixed Use":     1.0,
+    "Industrial|Industrial":   1.0,
+    "Agricultural|Agricultural": 1.0,
+    "Mixed Use|Commercial":    0.7,
+    "Commercial|Mixed Use":    0.7,
+    "Mixed Use|Residential":   0.7,
+    "Residential|Mixed Use":   0.7,
+    "Residential|Commercial":  0.4,
+    "Commercial|Residential":  0.4
+  }
+}

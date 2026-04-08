@@ -1,0 +1,6 @@
+target_land_city,land_id,district,area_sqm,price_per_sqm,zoning,road_width_m,area_category,similarity_score,sim_district,sim_coordinates,sim_zoning,sim_area,sim_road_width,sim_far_csr,sim_grades,sim_utilities,sim_recency,transaction_date,latitude,longitude,far,csr,commercial_grade,admin_grade,utilities_available
+Cairo,EG-LAND-0447,Nasr City,451.3,28836.550011079104,Mixed Use,15.0,Medium,0.6105,1.0,0.0,0.7,0.6,0.6,0.1,0.625,0.8,0.960730593607306,2026-02-23,30.07559,31.216315,2.57,1.28,D,B,Electricity|Fiber|Gas|Sewerage|Water
+Cairo,EG-LAND-0471,Nasr City,296.1,24450.67001013171,Mixed Use,15.0,Small,0.5998,1.0,0.2,0.7,0.4,0.6,0.0,0.875,0.6,0.5461187214611872,2024-11-26,30.056641,31.258823,3.48,1.24,B,B,Fiber|Sewerage
+Cairo,EG-LAND-0401,Obour,441.4,13289.920004531039,Residential,15.0,Medium,0.5598,0.0,0.4,1.0,0.8,0.6,0.2,0.875,1.0,0.4465753424657535,2024-08-09,30.036906,31.331383,2.44,0.87,C,C,Electricity|Fiber|Sewerage|Water
+Cairo,EG-LAND-0125,Nasr City,205.8,22952.160009718173,Residential,60.0,Small,0.539,1.0,0.0,1.0,0.2,0.0,0.8,0.625,0.8,0.32968036529680367,2024-04-03,30.011029,31.214546,1.57,0.49,NonCommercial,C,Electricity|Fiber|Gas|Sewerage|Water
+Cairo,EG-LAND-0246,Nasr City,187.7,17924.5,Residential,6.0,Small,0.5319,1.0,0.0,1.0,0.0,0.2,0.4,0.75,0.8,0.5378995433789955,2024-11-17,30.060213,31.23551,0.93,0.53,C,B,Fiber|Gas|Water

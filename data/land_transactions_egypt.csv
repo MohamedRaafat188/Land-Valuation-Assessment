@@ -1,0 +1,501 @@
+land_id,asset_type,transaction_date,city,district,latitude,longitude,zoning,area_sqm,frontage_m,depth_m,road_width_m,total_price_egp,price_per_sqm_egp,far,csr,commercial_grade,admin_grade,dist_to_commercial_m,dist_to_admin_m,dist_to_services_m,dist_to_main_road_m,utilities_available,utilities_count
+EG-LAND-0001,Land,2023-11-19,New Administrative Capital,R1,29.96298,31.776943,Mixed Use,221.1,5,54.1,8,4399834.72,19899.75,3.52,1.83,D,B,1349.0,735.0,579.0,203.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0002,Land,2025-10-20,New Administrative Capital,Downtown,30.056694,31.716404,Mixed Use,374.1,8.4,44.5,12,12862598.0,34382.78,3.55,1.92,NonCommercial,C,244.0,1721.0,566.0,279.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0003,Land,2023-11-06,Cairo,Obour,30.08254,31.259962,Commercial,771.7,9.7,79.8,15,28363054.08,36753.99,5.37,2.43,C,C,119.0,724.0,641.0,373.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0004,Land,2024-11-24,Mansoura,El Mashaya,31.093272,31.328073,,237.2,5.1,46.6,15,1961506.42,8269.42,2.99,0.95,B,B,2303.0,749.0,869.0,366.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0005,Land,2023-08-07,Cairo,Heliopolis,30.032664,31.237194,Agricultural,2213.9,104.9,21.1,12,11378184.08,5139.43,0.36,0.17,B,C,356.0,964.0,600.0,318.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0006,Land,2023-07-10,Alexandria,Montaza,31.214275,29.9395,Agricultural,1077.3,,,30,4204540.3,3902.85,0.13,0.06,B,D,629.0,980.0,215.0,411.0,Electricity|Gas|Sewerage,3
+EG-LAND-0007,Land,2025-09-09,Cairo,Maadi,30.046845,31.25431,Mixed Use,222.0,5,75.7,8,6518701.44,29363.52,2.18,1.05,B,B,1142.0,3092.0,196.0,,Gas|Water,2
+EG-LAND-0008,Land,2025-07-08,Mansoura,Toreel,31.025671,31.360757,Residential,269.1,5.3,50.9,6,1535002.91,5704.21,2.13,0.9,B,D,730.0,493.0,252.0,214.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0009,Land,2024-12-31,Giza,Dokki,30.058156,31.228337,Agricultural,1053.1,14.8,71.2,30,5398306.44,5126.11,0.46,0.16,B,C,,1062.0,,712.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0010,Land,2024-07-25,Tanta,El Galaa,30.742062,30.99841,Commercial,323.5,5.4,60.3,8,2631277.83,8133.78,4.64,1.79,C,B,142.0,1148.0,203.0,47.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0011,Land,2024-02-05,Giza,Mohandessin,30.034755,31.186476,Residential,492.0,31.9,15.4,30,5967925.56,12129.93,2.06,0.91,NonCommercial,C,757.0,818.0,864.0,4129.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0012,Land,2025-10-18,New Administrative Capital,R7,30.03374,31.780522,Commercial,508.1,8.3,60.9,20,18613958.96,36634.44,3.74,1.15,A,B,379.0,436.0,557.0,540.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0013,Land,2025-03-25,Cairo,10th of Ramadan,30.060376,31.26354,Commercial,940.8,26.0,36.2,6,35722467.65,37970.31,2.95,1.3,NonCommercial,B,256.0,579.0,239.0,700.0,Water,1
+EG-LAND-0014,Land,2024-07-02,New Administrative Capital,R2,29.961455,31.733854,Industrial,1315.9,17.3,76.2,60,25487982.92,19369.24,1.14,0.63,C,A,1054.0,1123.0,434.0,381.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0015,Land,2023-09-21,Mansoura,El Mogamma,30.995515,31.379793,Commercial,794.0,20.1,39.6,20,8113195.22,10218.13,3.18,1.34,D,C,901.0,1376.0,559.0,542.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0016,Land,2025-03-03,Tanta,Said District,30.766707,31.04571,Commercial,377.8,,,12,2732389.39,7232.37,5.49,2.59,A,A,99.0,1253.0,273.0,416.0,Electricity|Fiber|Water,3
+EG-LAND-0017,Land,2025-10-09,Alexandria,Smouha,31.24476,29.933753,Commercial,149.2,5,54.4,6,3313579.82,22208.98,2.32,0.86,D,D,227.0,489.0,,459.0,Fiber|Sewerage|Water,3
+EG-LAND-0018,Land,2025-02-20,Cairo,6th of October,30.01086,31.252752,Mixed Use,439.9,5.9,74.0,12,,,4.0,2.01,B,B,175.0,599.0,400.0,99.0,Electricity|Gas,2
+EG-LAND-0019,Land,2025-08-30,Mansoura,Hay El Gamaa,31.046657,31.395312,Agricultural,3504.9,104.0,33.7,8,4939210.23,1409.23,0.35,0.18,D,C,,893.0,316.0,,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0020,Land,2025-09-23,Cairo,10th of Ramadan,30.053513,31.292546,Industrial,2596.6,33.9,76.6,6,29633308.01,11412.35,1.34,0.64,A,D,190.0,769.0,236.0,444.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0021,Land,2026-01-02,New Administrative Capital,Financial District,30.01016,31.749796,Commercial,331.3,,,12,12487654.46,37692.89,5.82,2.84,C,B,639.0,,923.0,507.0,Fiber|Sewerage,2
+EG-LAND-0022,Land,2025-09-08,New Administrative Capital,R7,29.976392,31.779899,Agricultural,7831.7,,,8,67606758.67,8632.45,0.28,0.14,B,D,889.0,323.0,611.0,1144.0,Fiber|Sewerage,2
+EG-LAND-0023,Land,2024-12-02,Tanta,Said District,30.814574,30.979611,Mixed Use,270.4,5,60.5,15,1775778.99,6567.23,3.47,1.08,B,D,1058.0,4656.0,615.0,186.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0024,Land,2024-10-22,Cairo,Badr City,30.106215,31.198642,Agricultural,3789.7,,,15,28072809.1,7407.66,0.14,0.05,B,B,477.0,289.0,180.0,119.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0025,Villa,2025-08-07,Cairo,Obour,30.046722,31.287051,Agricultural,3544.3,79.6,44.5,10,25310307.06,7141.13,0.12,0.05,NonCommercial,D,325.0,714.0,41.0,218.0,Gas|Sewerage,2
+EG-LAND-0026,Land,2025-02-01,Cairo,Sheikh Zayed,29.997355,31.207323,Residential,123.9,5,65.3,8,3068556.96,24766.4,1.25,0.42,NonCommercial,B,600.0,,,475.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0027,Land,2025-08-23,Alexandria,Montaza,31.212876,29.853033,Commercial,413.8,20.4,20.3,6,7218480.31,17444.37,3.66,2.01,A,C,220.0,872.0,,255.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0028,Land,2024-05-26,Tanta,El Nahda,30.771636,30.973358,Residential,,,,60,5370612.3,,2.46,1.34,C,B,,552.0,404.0,625.0,Fiber|Sewerage|Water,3
+EG-LAND-0029,Land,2026-01-29,Cairo,Maadi,30.032111,31.266627,Residential,248.8,5.6,44.5,10,3291778.26,13230.62,1.53,0.59,C,C,341.0,,690.0,262.0,Electricity|Gas|Water,3
+EG-LAND-0030,Land,2023-11-02,Alexandria,Smouha,31.213308,29.944904,Residential,439.9,9.3,47.5,8,3736088.3,8493.04,1.47,0.58,NonCommercial,A,1613.0,1232.0,171.0,788.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0031,Land,2023-06-25,Alexandria,Mandara,31.156392,29.881046,Commercial,310.5,5.2,59.3,10,4386908.57,14128.53,5.64,2.66,B,C,319.0,1736.0,330.0,110.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0032,Land,2023-10-18,Mansoura,El Mashaya,31.077399,31.376431,Agricultural,1492.4,38.6,38.7,6,2434119.32,1631.01,0.47,0.18,B,D,,2233.0,507.0,342.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0033,Land,2026-02-23,Alexandria,Agami,31.224865,29.906407,Industrial,4515.4,58.9,76.6,40,50588735.44,11203.6,1.25,0.67,B,C,324.0,346.0,335.0,2105.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0034,Land,2023-11-26,Cairo,10th of Ramadan,30.098442,31.224071,Agricultural,4732.8,197.2,24.0,25,32548128.19,6877.14,0.26,0.11,B,C,2330.0,1443.0,188.0,,Electricity|Fiber|Gas,3
+EG-LAND-0035,Land,2023-09-26,New Administrative Capital,Downtown,30.004233,31.715074,Industrial,1293.4,44.6,29.0,30,26355792.88,20377.14,1.07,0.38,C,C,2343.0,1236.0,168.0,300.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0036,Land,2026-02-27,New Administrative Capital,R1,30.012707,31.772675,Commercial,372.8,6.5,57.7,20,,,3.17,0.99,C,B,794.0,612.0,1408.0,,Electricity|Fiber,2
+EG-LAND-0037,Land,2024-03-09,Alexandria,Mandara,31.179978,29.890724,Residential,370.8,5,77.2,6,3274627.5,8831.25,1.32,0.63,B,B,124.0,1302.0,341.0,,Gas|Sewerage,2
+EG-LAND-0038,Land,2025-05-09,Giza,Faisal,30.029025,31.204032,Residential,89.8,5,65.8,20,1518477.59,16909.55,1.65,0.69,C,B,371.0,1185.0,,700.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0039,Land,2024-04-20,Cairo,Obour,29.971454,31.226166,Residential,92.6,5,34.5,8,2371085.04,25605.67,0.91,0.38,C,C,1305.0,646.0,,147.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0040,Land,2025-03-25,Cairo,Sheikh Zayed,30.046158,31.220029,Mixed Use,255.4,5,71.4,20,4554410.28,17832.46,3.1,1.48,B,D,518.0,1570.0,,217.0,Electricity|Gas|Sewerage,3
+EG-LAND-0041,Land,2023-06-17,Tanta,El Bahr,30.755533,31.02928,Industrial,2664.0,77.0,34.6,12,9549933.84,3584.81,0.97,0.37,NonCommercial,B,1017.0,1047.0,375.0,622.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0042,Land,2024-07-09,Cairo,Maadi,30.031369,31.235915,Industrial,1457.4,32.6,44.7,40,21351070.31,14650.11,0.63,0.21,B,B,564.0,1685.0,256.0,343.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0043,Land,2024-06-18,New Administrative Capital,Financial District,30.070778,31.811797,,304.7,8.8,34.5,30,13080868.5,42930.32,2.59,1.31,D,D,1310.0,217.0,656.0,104.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0044,Land,2024-06-28,Cairo,New Cairo,30.076462,31.226752,Commercial,275.8,5.5,50.5,30,13853690.49,50230.93,5.58,2.33,C,C,2429.0,462.0,,744.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0045,Land,2025-08-21,Cairo,Obour,30.08261,31.205892,Mixed Use,414.8,7.1,58.5,40,11329909.42,27314.15,3.11,1.78,NonCommercial,C,611.0,1069.0,954.0,,Gas|Sewerage|Water,3
+EG-LAND-0046,Land,2026-03-14,Mansoura,Hay El Gamaa,31.028695,31.417396,Commercial,541.9,,,15,5756191.86,10622.24,2.35,1.18,D,B,420.0,806.0,188.0,218.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0047,Land,2025-08-02,Cairo,6th of October,30.072646,31.218418,Agricultural,2396.0,31.9,75.0,6,11051957.32,4612.67,0.31,0.13,D,D,1653.0,1847.0,1146.0,876.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0048,Land,2023-07-05,Alexandria,Sidi Gaber,31.230257,29.93809,Residential,307.2,6.9,44.5,12,3626720.26,11805.73,1.11,0.38,A,D,470.0,3031.0,1784.0,116.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0049,Land,2024-01-18,Giza,Faisal,30.057246,31.161292,Commercial,635.8,41.8,15.2,40,18791978.19,29556.43,2.4,0.74,D,B,214.0,994.0,310.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0050,Land,2024-06-17,Cairo,New Cairo,29.99877,31.211549,Industrial,2634.1,86.6,30.4,15,29983328.12,11382.76,0.68,0.31,C,C,425.0,1212.0,649.0,165.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0051,Land,2023-09-23,Cairo,Shorouk,30.071249,31.243274,Agricultural,5352.3,195.3,27.4,12,24162316.07,4514.38,0.22,0.09,B,D,911.0,166.0,458.0,123.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0052,Land,2026-02-27,Giza,Mohandessin,30.008358,31.278835,Commercial,337.9,8.0,42.1,12,8380656.62,24802.18,4.88,2.18,C,C,343.0,798.0,78.0,,Electricity|Sewerage|Water,3
+EG-LAND-0053,Land,2023-09-11,Mansoura,Toreel,31.048011,31.349412,,1241.0,22.5,55.1,12,5110065.7,4117.7,0.8,0.44,C,B,492.0,2352.0,237.0,541.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0054,Land,2025-09-18,Giza,Faisal,30.066212,31.167591,Residential,299.9,5,73.6,20,5641059.02,18809.8,2.14,1.08,C,D,567.0,,225.0,159.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0055,Land,2023-07-02,Cairo,10th of Ramadan,30.048837,31.240913,Industrial,,140.9,27.1,20,75292572.04,,0.69,0.3,A,D,243.0,576.0,205.0,237.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0056,Land,2024-11-20,Alexandria,Mandara,31.183649,29.91071,Agricultural,2123.6,88.5,24.0,8,8449931.82,3979.06,0.27,0.15,B,B,495.0,666.0,269.0,352.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0057,Land,2024-09-04,Alexandria,Sidi Gaber,31.189567,29.930862,Agricultural,9878.5,191.1,51.7,30,42309813.07,4283.02,0.5,0.22,C,B,609.0,2197.0,360.0,234.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0058,Land,2024-11-09,New Administrative Capital,Downtown,30.00429,31.740408,Mixed Use,661.9,37.0,17.9,8,13404725.99,20251.89,2.36,0.73,C,C,,491.0,,309.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0059,Land,2024-06-17,Cairo,6th of October,30.049207,31.243975,Residential,552.7,33.5,16.5,20,10373571.03,18768.9,2.08,1.13,NonCommercial,C,525.0,679.0,484.0,174.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0060,Land,2024-01-19,Alexandria,Mandara,31.1764,29.904278,,218.4,5,55.1,20,3430906.75,15709.28,1.85,0.73,B,C,748.0,413.0,643.0,134.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0061,Land,2025-01-05,Mansoura,El Mogamma,31.041784,31.372213,Commercial,390.3,15.1,25.9,30,3381184.51,8663.04,5.45,1.78,B,D,2072.0,325.0,714.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0062,Land,2024-04-13,New Administrative Capital,Financial District,29.980091,31.755754,Residential,187.9,5,78.6,12,5548920.0,29531.24,1.44,0.46,B,D,4071.0,715.0,749.0,147.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0063,Land,2023-04-03,Mansoura,El Mogamma,31.006142,31.315454,,14370.4,304.5,47.2,30,31651237.11,2202.53,0.1,0.04,A,C,259.0,120.0,186.0,571.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0064,Land,2025-09-04,Mansoura,El Mogamma,31.063789,31.395844,Mixed Use,291.2,7.3,39.9,8,3140859.9,10785.92,2.38,1.02,B,D,2098.0,244.0,215.0,399.0,Electricity|Fiber,2
+EG-LAND-0065,Land,2024-01-20,New Administrative Capital,R7,30.059101,31.761063,,5854.9,,,15,87760267.08,14989.2,1.45,0.77,NonCommercial,B,,316.0,1834.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0066,Land,2025-05-24,New Administrative Capital,R7,30.015263,31.789355,Mixed Use,300.6,10.7,28.2,25,8566180.16,28496.94,1.91,1.12,C,B,543.0,2819.0,968.0,254.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0067,Land,2025-10-26,New Administrative Capital,R7,30.038199,31.728037,Mixed Use,222.8,5,70.9,40,10811519.28,48525.67,2.93,0.98,D,B,2631.0,339.0,,1285.0,Electricity|Gas|Sewerage,3
+EG-LAND-0068,Land,2026-03-16,Giza,Faisal,29.996171,31.227174,Agricultural,7522.4,119.2,63.1,8,32793752.35,4359.48,0.14,0.08,B,D,1011.0,1363.0,176.0,481.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0069,Land,2024-12-03,Cairo,Heliopolis,30.031149,31.220548,Commercial,485.8,,,60,22673607.38,46672.72,5.34,2.13,A,D,983.0,732.0,191.0,213.0,Electricity|Fiber|Gas,3
+EG-LAND-0070,Land,2023-08-29,Cairo,Maadi,30.087151,31.26755,Residential,250.7,13.2,19.0,40,6852686.45,27334.21,1.96,0.69,NonCommercial,A,311.0,239.0,143.0,486.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0071,Land,2025-02-17,New Administrative Capital,R5,30.028786,31.730433,Mixed Use,297.1,5,79.6,30,9690888.02,32618.27,3.14,1.19,C,B,172.0,716.0,449.0,62.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0072,Land,2026-02-03,Mansoura,El Mogamma,31.032847,31.351756,Commercial,202.3,8.4,24.2,20,2084711.61,10305.05,2.09,0.99,C,D,,851.0,105.0,287.0,Electricity|Sewerage|Water,3
+EG-LAND-0073,Land,2023-07-09,Giza,Hadayek October,30.005741,31.197913,Commercial,245.0,,,10,6796052.55,27738.99,5.75,1.97,NonCommercial,A,198.0,380.0,970.0,,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0074,Land,2025-08-23,Cairo,Sheikh Zayed,30.042658,31.226438,Commercial,305.9,7.2,42.3,8,7631152.7,24946.56,2.68,1.11,A,A,184.0,334.0,589.0,215.0,Electricity|Gas|Water,3
+EG-LAND-0075,Land,2025-02-05,New Administrative Capital,Government District,30.008499,31.794285,Mixed Use,244.6,5,75.2,60,9401269.49,38435.28,2.72,1.36,NonCommercial,C,684.0,601.0,534.0,99.0,Fiber|Gas,2
+EG-LAND-0076,Building,2025-09-15,Giza,Haram,30.03674,31.223023,Commercial,115.1,5,78.1,60,3092086.68,26864.35,2.69,1.6,NonCommercial,D,794.0,648.0,310.0,542.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0077,Land,2026-03-07,Tanta,El Galaa,30.758021,31.00994,Industrial,1705.5,40.3,42.3,20,,,0.9,0.51,C,A,155.0,870.0,427.0,220.0,Electricity|Fiber|Water,3
+EG-LAND-0078,Land,2024-06-13,Giza,Haram,30.009308,31.239822,Residential,201.0,7.4,27.2,30,3137308.5,15608.5,1.96,0.73,C,D,2782.0,818.0,404.0,556.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0079,Villa,2025-01-18,Giza,Haram,30.031158,31.2359,Mixed Use,393.7,12.1,32.5,25,12331869.04,31323.01,1.52,0.91,B,B,2481.0,1356.0,,254.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0080,Land,2024-07-29,Alexandria,Mandara,31.213775,29.952226,Agricultural,14214.5,760.1,18.7,15,41156379.01,2895.38,0.22,0.1,D,C,1021.0,796.0,259.0,142.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0081,Land,2023-08-12,Mansoura,Toreel,31.065881,31.41866,Residential,145.5,5,55.3,,,,1.49,0.88,C,B,311.0,850.0,315.0,52.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0082,Land,2024-04-26,Giza,Smart Village Area,30.007788,31.221817,Residential,488.4,14.0,34.9,12,6683270.48,13684.01,1.93,0.96,D,D,441.0,620.0,573.0,302.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0083,Land,2025-08-30,Alexandria,Sidi Gaber,31.240703,29.877208,Residential,274.0,5,66.0,40,2968252.96,10833.04,1.05,0.34,B,A,981.0,1938.0,162.0,493.0,Electricity|Fiber,2
+EG-LAND-0084,Land,2025-09-19,Tanta,Said District,30.82397,30.949667,Residential,192.2,8.0,24.0,25,1125482.84,5855.79,0.99,0.5,C,D,54.0,,625.0,124.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0085,Land,2025-07-08,Mansoura,El Mogamma,30.993948,31.343977,Residential,247.4,,,6,1949536.74,7880.1,2.25,1.26,C,B,571.0,2031.0,514.0,279.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0086,Land,2023-06-16,Cairo,Shorouk,30.030145,31.240624,Commercial,262.8,5,57.5,60,11682282.56,44453.13,4.86,1.62,B,C,381.0,231.0,248.0,246.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0087,Land,2024-01-18,Cairo,Badr City,30.070062,31.247707,Commercial,385.7,10.4,37.0,25,13028074.32,33777.74,4.77,1.68,A,C,655.0,,497.0,,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0088,Land,2023-05-18,Mansoura,El Mogamma,31.026788,31.422963,Agricultural,12116.1,,,10,23652202.29,1952.13,0.33,0.19,D,B,168.0,454.0,,1066.0,Fiber|Sewerage,2
+EG-LAND-0089,Land,2025-11-25,Giza,Dokki,30.008401,31.199751,Commercial,480.1,28.1,17.1,10,11285365.03,23506.28,3.8,2.26,NonCommercial,D,1067.0,4366.0,919.0,638.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0090,Land,2025-05-19,Cairo,6th of October,30.111174,31.252818,Residential,336.9,5.2,65.3,20,5976100.65,17738.5,1.41,0.52,C,C,981.0,854.0,813.0,479.0,Gas|Sewerage|Water,3
+EG-LAND-0091,Villa,2024-02-10,Cairo,Sheikh Zayed,30.052952,31.298105,Commercial,982.0,19.6,50.1,60,52107168.78,53062.29,4.15,2.12,A,A,209.0,374.0,,1163.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0092,Land,2023-12-19,Alexandria,Mandara,31.16783,29.946075,Residential,227.9,14.2,16.1,12,2340314.22,10269.04,2.43,0.83,D,C,571.0,1680.0,308.0,260.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0093,Land,2025-01-23,Tanta,El Galaa,30.834296,30.963518,Residential,617.1,24.2,25.5,15,3530219.29,5720.66,1.92,0.98,C,D,884.0,870.0,391.0,380.0,Fiber|Gas|Sewerage,3
+EG-LAND-0094,Land,2024-05-22,Giza,Mohandessin,30.037175,31.185683,Mixed Use,366.6,10.5,34.9,20,6953203.22,18966.73,2.41,0.88,C,D,161.0,1320.0,124.0,362.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0095,Land,2025-06-06,Giza,Smart Village Area,30.079093,31.205853,Residential,408.2,14.0,29.2,10,7323034.52,17939.82,1.68,0.68,B,C,193.0,584.0,196.0,147.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0096,Land,2024-03-21,Cairo,Maadi,30.000089,31.202639,Residential,306.3,7.3,41.9,10,3998320.74,13053.61,2.45,1.2,NonCommercial,B,98.0,1090.0,281.0,107.0,Fiber|Sewerage|Water,3
+EG-LAND-0097,Land,2024-04-30,New Administrative Capital,Government District,29.994619,31.799604,Agricultural,8288.0,209.3,39.6,10,41304159.68,4983.61,0.19,0.1,C,A,1557.0,2670.0,466.0,2795.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0098,Land,2023-12-17,New Administrative Capital,R2,30.019546,31.767038,Commercial,162.7,10.5,15.5,8,4686610.92,28805.23,2.71,1.27,C,D,522.0,1484.0,323.0,336.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0099,Land,2025-12-16,Cairo,Heliopolis,30.065463,31.276944,Mixed Use,249.9,12.0,20.9,10,7824371.5,31310.01,3.46,1.57,D,C,1408.0,556.0,532.0,3527.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0100,Land,2025-02-15,Tanta,El Bahr,30.737778,30.994946,Agricultural,7802.6,373.3,20.9,25,15853712.81,2031.85,0.29,0.11,NonCommercial,C,229.0,2693.0,353.0,420.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0101,Land,2024-04-07,Giza,Haram,30.045028,31.216587,Commercial,315.3,5,63.5,20,10361867.86,32863.52,5.06,2.34,D,B,,1161.0,278.0,614.0,Electricity|Fiber,2
+EG-LAND-0102,Land,2023-04-21,Mansoura,El Mashaya,31.051326,31.345903,Commercial,313.9,6.6,47.7,60,4594117.98,14635.61,3.08,1.81,B,C,682.0,,343.0,116.0,Electricity|Gas|Sewerage,3
+EG-LAND-0103,Villa,2024-12-05,Giza,Faisal,29.962448,31.153342,Residential,205.3,5,67.0,60,4404594.48,21454.43,1.41,0.66,B,D,482.0,1120.0,392.0,166.0,Gas|Sewerage,2
+EG-LAND-0104,Land,2023-09-29,New Administrative Capital,R3,30.0423,31.745116,Agricultural,3600.0,64.2,56.1,40,28547316.0,7929.81,0.44,0.15,NonCommercial,B,273.0,473.0,284.0,170.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0105,Land,2025-09-01,Giza,Dokki,29.976862,31.207538,Residential,711.2,9.8,72.6,6,12439755.66,17491.22,2.35,1.04,D,B,308.0,1519.0,244.0,,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0106,Land,2023-06-29,Cairo,Badr City,30.076681,31.224525,Industrial,3152.0,73.3,43.0,30,54375813.92,17251.21,0.69,0.22,D,D,372.0,688.0,323.0,261.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0107,Land,2023-10-17,Alexandria,Mandara,31.195875,29.915569,Residential,110.7,5,47.1,10,,,2.11,0.91,C,B,138.0,,675.0,451.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0108,Land,2024-10-30,Tanta,El Nahda,30.761398,31.003374,Commercial,136.2,7.4,18.4,40,1187248.59,8716.95,4.58,2.34,C,C,456.0,947.0,834.0,492.0,Electricity|Gas|Water,3
+EG-LAND-0109,Land,2024-08-06,New Administrative Capital,Government District,30.028216,31.730329,Mixed Use,135.9,5,50.3,10,4392157.54,32319.04,3.3,1.64,C,C,360.0,1340.0,286.0,226.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0110,Land,2025-07-10,New Administrative Capital,Downtown,30.022978,31.770715,Commercial,337.8,12.3,27.5,8,8948504.41,26490.54,4.94,2.72,C,C,687.0,1151.0,122.0,266.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0111,Land,2024-03-29,Giza,Mohandessin,29.999339,31.187558,Commercial,225.0,10.3,21.8,10,4757168.25,21142.97,5.06,2.92,C,D,574.0,886.0,,671.0,Fiber|Gas|Water,3
+EG-LAND-0112,Land,2024-09-13,Tanta,El Bahr,30.817861,30.982931,Commercial,321.0,6.1,52.2,20,1603404.63,4995.03,2.15,1.17,B,C,469.0,1493.0,229.0,197.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0113,Land,2025-12-12,Giza,Dokki,29.994667,31.205964,Agricultural,2224.0,90.0,24.7,60,18386097.12,8267.13,0.41,0.14,A,B,844.0,1008.0,264.0,79.0,Fiber|Gas,2
+EG-LAND-0114,Land,2023-12-06,New Administrative Capital,R5,29.99508,31.77673,Residential,196.7,5,53.6,60,5632113.07,28633.01,1.99,0.61,B,C,456.0,1290.0,171.0,126.0,Fiber|Sewerage|Water,3
+EG-LAND-0115,Land,2024-01-31,New Administrative Capital,R7,30.015266,31.767367,Residential,256.3,,,20,,,2.29,1.3,B,B,75.0,376.0,210.0,252.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0116,Land,2025-05-24,Mansoura,Hay El Gamaa,31.017658,31.390074,Residential,408.7,9.2,44.2,12,2834117.89,6934.47,2.04,1.08,B,A,824.0,528.0,159.0,491.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0117,Land,2024-12-15,Mansoura,El Mashaya,30.999746,31.360625,Residential,207.2,10.3,20.2,6,1108406.04,5349.45,1.1,0.65,NonCommercial,D,442.0,619.0,229.0,,Electricity|Gas|Water,3
+EG-LAND-0118,Land,2023-04-22,Giza,Dokki,29.983574,31.172566,Mixed Use,989.2,44.8,22.1,25,21103691.72,21334.1,3.03,0.96,B,C,235.0,,225.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0119,Land,2025-02-12,Cairo,10th of Ramadan,30.050434,31.24535,Agricultural,6314.8,110.4,57.2,25,38973430.05,6171.76,0.16,0.05,C,B,89.0,1574.0,995.0,,Electricity|Fiber|Gas|Water,4
+EG-LAND-0120,Land,2026-03-07,Cairo,Maadi,29.987381,31.250859,Residential,186.4,12.1,15.4,60,5615242.22,30124.69,1.36,0.44,A,B,208.0,712.0,203.0,471.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0121,Land,2024-02-15,New Administrative Capital,R3,30.033675,31.785507,,7467.5,388.9,19.2,,50409508.1,6750.52,0.3,0.11,B,C,335.0,831.0,725.0,155.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0122,Land,2024-05-18,New Administrative Capital,R2,29.98786,31.807928,Mixed Use,137.1,5,56.6,25,3441918.81,25105.17,3.73,1.72,C,A,348.0,1035.0,287.0,913.0,Fiber|Water,2
+EG-LAND-0123,Land,2025-08-05,Cairo,Sheikh Zayed,30.011767,31.268712,Mixed Use,230.2,6.5,35.4,40,7593181.53,32985.15,1.86,1.04,C,C,395.0,248.0,306.0,277.0,Fiber|Sewerage|Water,3
+EG-LAND-0124,Land,2025-10-05,Alexandria,Agami,31.168651,29.973205,Agricultural,2816.6,43.5,64.8,6,7373492.64,2617.87,0.13,0.06,C,C,636.0,462.0,531.0,329.0,Electricity|Sewerage|Water,3
+EG-LAND-0125,Land,2024-04-03,Cairo,Nasr City,30.011029,31.214546,Residential,205.8,5,58.6,60,4723554.53,22952.16,1.57,0.49,NonCommercial,C,474.0,2064.0,859.0,187.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0126,Land,2025-11-07,New Administrative Capital,R3,30.02945,31.728199,Commercial,301.4,7.2,41.9,8,12314408.3,40857.36,4.22,2.31,D,A,6218.0,286.0,732.0,325.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0127,Land,2026-04-01,New Administrative Capital,Financial District,29.962498,31.765861,Residential,351.7,10.4,33.9,12,10925219.35,31064.03,1.61,0.57,C,C,456.0,248.0,526.0,239.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0128,Land,2025-06-27,New Administrative Capital,R3,30.05677,31.785718,Residential,358.6,8.0,44.6,30,8193662.16,22849.03,1.77,0.91,B,C,642.0,820.0,323.0,603.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0129,Land,2025-12-14,Tanta,Said District,30.752314,31.03092,Commercial,,5,44.5,8,1427474.78,,4.29,2.13,C,B,,585.0,,67.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0130,Land,2025-08-16,Cairo,6th of October,29.992067,31.195723,Residential,353.6,6.1,57.8,15,4731857.52,13381.95,1.31,0.69,A,B,321.0,1342.0,809.0,589.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0131,Land,2023-04-09,Cairo,Shorouk,30.033581,31.186943,Residential,666.2,8.9,74.7,,12972699.42,19472.68,0.97,0.32,D,B,367.0,1085.0,1233.0,159.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0132,Apartment,2025-07-09,Cairo,10th of Ramadan,30.008142,31.271524,Mixed Use,488.2,7.3,67.2,8,6610281.7,13540.11,2.6,1.16,B,A,260.0,985.0,801.0,66.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0133,Land,2026-03-31,Giza,Smart Village Area,30.017241,31.24936,Mixed Use,330.9,5.5,60.5,30,9404178.0,28420.0,3.2,1.34,A,D,,1088.0,244.0,703.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0134,Land,2024-02-05,Cairo,Obour,30.030953,31.214293,Industrial,1595.3,72.8,21.9,40,19175521.95,12020.01,0.56,0.3,D,D,425.0,479.0,564.0,,Sewerage,1
+EG-LAND-0135,Land,2025-12-29,New Administrative Capital,R3,30.02011,31.765895,Mixed Use,223.1,5,56.1,10,7608620.25,34104.08,3.59,1.93,B,D,,231.0,127.0,141.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0136,Land,2025-09-09,Giza,Hadayek October,30.023924,31.167873,Commercial,273.6,10.8,25.3,60,9053807.04,33091.4,3.68,1.72,D,C,598.0,1563.0,222.0,194.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0137,Land,2023-08-04,Tanta,El Galaa,30.836729,30.982701,Commercial,458.7,,,6,3876106.74,8450.2,2.92,0.97,B,C,395.0,2867.0,422.0,307.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0138,Land,2024-01-29,Cairo,10th of Ramadan,30.021155,31.259392,Commercial,,15.5,38.3,60,25954270.78,,5.45,1.99,D,D,396.0,595.0,266.0,215.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0139,Land,2026-01-01,Cairo,Shorouk,30.011321,31.268472,Mixed Use,,46.8,17.2,10,23761744.69,,1.96,1.1,D,D,434.0,742.0,199.0,288.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0140,Land,2025-02-01,New Administrative Capital,R1,30.022592,31.751917,Residential,710.4,,,60,25821974.4,36348.5,2.08,1.1,NonCommercial,B,4249.0,524.0,165.0,431.0,Fiber|Water,2
+EG-LAND-0141,Land,2024-03-09,Giza,Faisal,29.979778,31.231212,,410.6,5.4,76.2,40,,,3.9,1.66,C,D,1348.0,1566.0,,109.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0142,Land,2023-04-12,Mansoura,El Mashaya,31.058679,31.351213,Commercial,273.3,11.6,23.6,20,1938732.81,7093.79,2.16,0.85,D,C,272.0,345.0,571.0,,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0143,Land,2023-06-14,Giza,Haram,30.077088,31.217363,Residential,50,,,40,801565.0,16031.3,1.85,0.68,C,A,2072.0,1028.0,1505.0,234.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0144,Building,2023-05-20,New Administrative Capital,R7,30.081197,31.74106,Residential,673.6,27.4,24.6,,10697111.54,15880.51,1.61,0.9,NonCommercial,C,376.0,1309.0,,67.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0145,Land,2023-07-02,New Administrative Capital,R7,30.073534,31.818062,Commercial,471.9,13.6,34.8,10,16745371.5,35485.0,5.47,2.67,B,B,475.0,1712.0,898.0,422.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0146,Land,2025-12-14,Mansoura,Hay El Gamaa,31.036458,31.409472,Mixed Use,152.6,,,10,,,1.74,0.82,NonCommercial,D,271.0,,592.0,641.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0147,Land,2023-04-21,Giza,Mohandessin,29.976261,31.235789,Residential,190.0,5,67.2,12,3208609.8,16887.42,2.1,0.7,D,B,255.0,2026.0,160.0,57.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0148,Land,2024-04-12,New Administrative Capital,R1,30.036244,31.766976,Commercial,494.3,15.0,33.0,12,12499250.41,25286.77,4.69,1.56,A,C,123.0,1052.0,2023.0,48.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0149,Land,2024-02-03,New Administrative Capital,Downtown,30.007461,31.755382,Residential,748.5,9.5,78.5,40,21826536.95,29160.37,2.46,0.99,B,C,555.0,1747.0,396.0,381.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0150,Land,2023-12-25,Cairo,10th of Ramadan,30.080196,31.232888,Mixed Use,1129.3,25.3,44.6,25,35007227.16,30999.05,3.16,1.41,B,C,491.0,,2152.0,371.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0151,Land,2024-07-20,Cairo,Shorouk,30.047268,31.249153,Agricultural,2451.0,69.4,35.3,25,12782626.77,5215.27,0.15,0.06,C,C,1159.0,920.0,437.0,136.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0152,Land,2025-10-10,Giza,Haram,30.022438,31.203006,Commercial,241.8,6.6,36.9,12,5725746.62,23679.68,3.34,1.51,C,B,321.0,1833.0,708.0,,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0153,Land,2025-09-25,Alexandria,Smouha,31.237547,29.910757,Industrial,2088.1,63.7,32.8,6,15571546.37,7457.28,0.71,0.42,C,D,539.0,806.0,273.0,320.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0154,Land,2025-06-03,New Administrative Capital,Financial District,30.022704,31.813507,Agricultural,6408.0,91.7,69.9,12,33518710.08,5230.76,0.2,0.11,NonCommercial,C,1649.0,590.0,264.0,181.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0155,Land,2024-01-10,Cairo,Heliopolis,30.017353,31.280815,Residential,240.3,10.8,22.3,25,7158524.99,29789.95,1.23,0.59,C,B,1733.0,559.0,244.0,469.0,Fiber|Sewerage|Water,3
+EG-LAND-0156,Land,2026-02-17,New Administrative Capital,R7,29.979913,31.712341,Agricultural,10130.3,160.5,63.1,20,80063813.02,7903.4,0.44,0.15,NonCommercial,D,685.0,1397.0,645.0,277.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0157,Land,2025-09-08,Cairo,Heliopolis,30.032376,31.256634,Industrial,4085.8,107.8,37.9,25,65929531.11,16136.26,1.37,0.47,B,C,2579.0,1267.0,193.0,227.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0158,Land,2025-04-21,Giza,Faisal,30.0527,31.221707,Agricultural,20259.1,820.2,24.7,30,71557369.7,3532.11,0.27,0.11,D,B,,868.0,870.0,539.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0159,Land,2024-02-06,Giza,Hadayek October,30.008263,31.196262,Mixed Use,134.4,6.3,21.2,20,2750539.01,20465.32,3.94,1.98,NonCommercial,C,370.0,,,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0160,Land,2024-10-15,Alexandria,Mandara,31.206794,29.924741,Agricultural,2870.4,40.0,71.7,40,8553562.37,2979.92,0.24,0.12,A,B,958.0,1162.0,1021.0,160.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0161,Land,2026-03-24,Cairo,6th of October,30.027272,31.197202,Residential,149.7,7.5,20.0,15,2001932.11,13372.96,1.35,0.7,C,D,4317.0,1582.0,3698.0,1138.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0162,Land,2024-01-06,New Administrative Capital,Downtown,30.018979,31.786118,Industrial,3173.9,77.6,40.9,60,69391166.13,21863.06,1.31,0.63,B,C,260.0,443.0,1359.0,125.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0163,Land,2023-07-28,Cairo,Maadi,30.075528,31.208799,Agricultural,5414.2,156.9,34.5,8,33753313.92,6234.22,0.17,0.06,C,D,397.0,2241.0,329.0,584.0,Fiber,1
+EG-LAND-0164,Land,2025-10-23,Alexandria,Agami,31.199338,29.87787,Commercial,597.3,,,10,11962425.75,20027.5,2.06,0.69,D,C,524.0,376.0,508.0,830.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0165,Villa,2026-02-16,New Administrative Capital,Financial District,30.051477,31.812053,,3892.3,88.7,43.9,8,56531453.82,14523.92,1.01,0.52,C,C,151.0,189.0,320.0,256.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0166,Land,2024-04-21,Alexandria,Mandara,31.16966,29.928946,Agricultural,4252.4,68.4,62.2,30,20346883.52,4784.8,0.37,0.13,D,B,421.0,3551.0,319.0,,Electricity|Fiber|Gas|Water,4
+EG-LAND-0167,Land,2025-11-22,Giza,Mohandessin,29.956959,31.20117,Mixed Use,140.0,5,51.5,10,2342449.2,16731.78,1.89,0.73,C,B,2496.0,2487.0,951.0,86.0,Sewerage|Water,2
+EG-LAND-0168,Land,2025-10-09,Giza,Mohandessin,30.008323,31.256207,Residential,577.4,10.3,55.9,15,9314189.52,16131.26,1.48,0.79,C,D,1047.0,374.0,425.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0169,Land,2024-04-27,Alexandria,Agami,31.16587,29.942976,,11556.6,154.5,74.8,40,49598269.18,4291.77,0.19,0.09,D,C,456.0,2164.0,347.0,115.0,Gas|Sewerage,2
+EG-LAND-0170,Land,2025-11-30,Alexandria,Mandara,31.212762,29.899179,Residential,841.9,36.6,23.0,40,9271718.42,11012.85,0.98,0.45,B,C,1500.0,326.0,810.0,556.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0171,Apartment,2023-05-05,Giza,Dokki,30.034343,31.219857,Residential,643.8,11.4,56.4,30,12768208.57,19832.57,2.4,0.99,C,C,,710.0,387.0,,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0172,Land,2023-11-20,Alexandria,Smouha,31.260745,29.937838,Commercial,377.5,,,10,4944306.25,13097.5,5.47,2.17,D,C,1178.0,197.0,490.0,626.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0173,Land,2024-07-08,Alexandria,Agami,31.162421,29.904398,Agricultural,9926.8,361.0,27.5,10,33150647.87,3339.51,0.27,0.11,D,C,559.0,393.0,631.0,781.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0174,Land,2025-12-02,Cairo,Maadi,30.024379,31.218166,Residential,,22.1,18.8,25,9357470.89,,0.91,0.28,C,B,328.0,336.0,95.0,289.0,Fiber|Gas,2
+EG-LAND-0175,Land,2025-06-14,Cairo,Badr City,30.065853,31.174728,Mixed Use,122.9,5,49.9,30,3623826.94,29485.98,3.35,1.57,C,C,1401.0,624.0,1093.0,636.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0176,Land,2023-09-17,Cairo,Shorouk,30.038031,31.279442,,307.6,10.7,28.7,20,8764062.3,28491.75,2.21,0.9,NonCommercial,C,,2924.0,499.0,256.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0177,Building,2025-01-04,Tanta,El Nahda,30.838038,31.003857,Residential,845.4,25.5,33.2,20,5024854.7,5943.76,2.07,0.7,D,C,,518.0,153.0,295.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0178,Land,2025-12-16,Cairo,Badr City,30.06049,31.214647,Mixed Use,1472.5,35.6,41.4,6,48258846.23,32773.41,2.98,1.45,B,A,526.0,847.0,76.0,612.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0179,Land,2025-07-20,Cairo,Sheikh Zayed,30.009597,31.244819,Commercial,313.5,8.9,35.4,60,12098008.89,38590.14,3.82,1.52,D,A,1401.0,941.0,442.0,120.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0180,Land,2023-10-04,Cairo,10th of Ramadan,30.050798,31.250723,Residential,304.3,13.1,23.3,30,7716533.73,25358.31,1.38,0.82,D,B,527.0,996.0,365.0,1144.0,Electricity|Gas|Water,3
+EG-LAND-0181,Land,2023-09-14,New Administrative Capital,Government District,29.998873,31.810834,Mixed Use,198.6,5,74.8,20,4775626.96,24046.46,2.0,0.77,C,B,822.0,724.0,722.0,105.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0182,Land,2025-01-26,Cairo,Maadi,30.036859,31.256616,Industrial,2555.4,44.1,58.0,8,23024639.53,9010.19,1.35,0.52,C,B,,,,495.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0183,Land,2024-01-28,Alexandria,Borg El Arab,31.160024,29.919055,Agricultural,3609.7,76.2,47.4,30,11888546.95,3293.5,0.4,0.16,NonCommercial,C,338.0,1336.0,88.0,244.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0184,Land,2023-10-10,Alexandria,Montaza,31.204492,29.961673,Commercial,586.3,28.7,20.4,25,6752147.4,11516.54,5.29,2.83,NonCommercial,D,525.0,511.0,111.0,105.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0185,Land,2023-08-16,Alexandria,Sidi Gaber,31.205878,29.912964,,1814.7,51.4,35.3,12,5336488.29,2940.7,0.41,0.21,A,D,1706.0,698.0,445.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0186,Land,2024-01-22,Tanta,Said District,30.813808,31.011955,Mixed Use,339.9,9.3,36.4,25,1693742.09,4983.06,1.93,1.08,B,B,,603.0,454.0,752.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0187,Land,2025-02-10,Cairo,New Cairo,30.077378,31.190116,Residential,176.0,11.4,15.5,30,3950598.08,22446.58,2.33,1.21,D,B,185.0,1131.0,357.0,246.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0188,Land,2025-01-12,Tanta,El Galaa,30.812442,30.983647,Agricultural,5617.9,245.3,22.9,8,8336120.91,1483.85,0.4,0.18,B,A,1014.0,703.0,669.0,210.0,Fiber|Sewerage|Water,3
+EG-LAND-0189,Land,2024-09-19,Mansoura,Hay El Gamaa,31.07991,31.394598,Residential,190.3,11.1,17.2,25,1153453.97,6061.24,0.85,0.26,NonCommercial,B,138.0,2268.0,875.0,1494.0,Electricity|Gas|Water,3
+EG-LAND-0190,Land,2025-03-09,Mansoura,Hay El Gamaa,30.991293,31.329096,Mixed Use,114.5,5,42.8,20,1034877.33,9038.23,3.95,2.01,D,C,225.0,514.0,197.0,737.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0191,Land,2024-12-11,Mansoura,El Mashaya,31.015821,31.331658,Agricultural,6008.0,366.3,16.4,,8519644.4,1418.05,0.36,0.19,D,D,254.0,573.0,399.0,387.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0192,Land,2024-02-10,Mansoura,El Mashaya,31.021968,31.37593,Residential,833.3,43.4,19.2,12,5492155.3,6590.85,2.42,0.99,C,B,268.0,1249.0,339.0,146.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0193,Land,2024-10-22,Cairo,Obour,30.034673,31.216964,Residential,130.0,5,51.5,15,,,2.38,1.24,B,C,224.0,621.0,245.0,1343.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0194,Land,2025-05-06,New Administrative Capital,R3,30.071053,31.767889,Residential,259.8,5,74.6,15,5913609.17,22762.16,1.88,1.0,D,B,1651.0,419.0,261.0,,Electricity|Fiber|Gas,3
+EG-LAND-0195,Land,2025-06-30,Giza,Mohandessin,29.994853,31.215,Industrial,2850.9,,,,28135018.94,9868.82,1.09,0.48,B,B,849.0,164.0,906.0,1098.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0196,Land,2024-10-04,Alexandria,Smouha,31.231025,29.90465,Residential,307.0,7.2,42.9,60,5250099.1,17101.3,1.85,0.92,C,D,720.0,618.0,337.0,557.0,Gas|Sewerage|Water,3
+EG-LAND-0197,Land,2025-10-17,Mansoura,Toreel,31.022045,31.337388,Mixed Use,637.4,,,12,4846802.35,7604.02,3.16,1.18,D,D,1030.0,563.0,1338.0,299.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0198,Land,2024-10-21,New Administrative Capital,R3,29.982503,31.700153,Agricultural,3742.5,64.2,58.3,15,29854633.57,7977.19,0.15,0.05,NonCommercial,C,,763.0,183.0,121.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0199,Land,2025-07-17,Giza,Haram,30.009775,31.168511,Agricultural,1893.4,46.5,40.7,25,9981929.06,5271.96,0.35,0.13,D,C,469.0,,400.0,70.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0200,Land,2025-05-10,New Administrative Capital,R5,30.057444,31.761778,Mixed Use,157.5,5,59.1,25,4711540.05,29914.54,2.6,1.16,D,C,,606.0,536.0,254.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0201,Land,2025-12-15,Giza,Smart Village Area,30.059137,31.235633,Residential,374.6,8.7,43.2,6,5851473.01,15620.59,1.0,0.34,D,B,749.0,670.0,85.0,105.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0202,Land,2023-10-26,Alexandria,Agami,31.195456,29.933508,Mixed Use,434.3,7.1,61.4,30,9711994.66,22362.41,3.24,0.98,D,D,545.0,398.0,416.0,403.0,Electricity|Sewerage|Water,3
+EG-LAND-0203,Land,2024-11-09,Cairo,6th of October,30.117049,31.213026,Agricultural,5050.0,76.6,65.9,40,47094684.0,9325.68,0.15,0.07,B,B,418.0,5606.0,424.0,533.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0204,Land,2025-03-03,Cairo,6th of October,30.03584,31.198024,Mixed Use,131.7,5,48.2,15,5538128.55,42051.09,3.88,2.08,D,B,954.0,528.0,581.0,469.0,Fiber|Water,2
+EG-LAND-0205,Land,2024-01-25,Cairo,Sheikh Zayed,30.049884,31.258628,Mixed Use,694.0,10.5,66.3,60,23929848.7,34481.05,3.5,1.58,D,C,1203.0,318.0,499.0,406.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0206,Land,2025-10-26,Giza,Dokki,30.004027,31.137247,Agricultural,4346.7,232.4,18.7,8,24405851.16,5614.8,0.49,0.25,C,D,579.0,2097.0,681.0,474.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0207,Land,2025-08-03,Alexandria,Smouha,31.238596,29.910115,Commercial,339.0,22.5,15.1,8,5579445.06,16458.54,3.97,1.29,B,B,75.0,,,278.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0208,Land,2024-09-27,New Administrative Capital,R5,30.044705,31.784243,Commercial,337.6,13.2,25.5,10,14516526.54,42999.19,3.98,2.01,C,C,434.0,512.0,244.0,168.0,Fiber|Gas|Sewerage,3
+EG-LAND-0209,Land,2024-05-01,New Administrative Capital,Financial District,29.997792,31.727335,Residential,166.8,5,46.2,6,3976633.76,23840.73,1.12,0.62,C,D,183.0,1122.0,214.0,447.0,Gas|Water,2
+EG-LAND-0210,Land,2023-04-22,Cairo,Maadi,30.029643,31.27555,Commercial,,12.1,36.9,6,13004218.74,,5.79,2.37,C,D,519.0,544.0,346.0,459.0,Sewerage|Water,2
+EG-LAND-0211,Land,2024-02-05,Giza,Hadayek October,30.0445,31.221044,,3320.3,61.4,54.1,60,37027786.38,11151.94,1.41,0.45,D,D,858.0,982.0,783.0,125.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0212,Villa,2025-10-30,New Administrative Capital,R3,30.045015,31.807025,Residential,569.6,8.7,65.7,40,20545722.62,36070.44,1.3,0.64,B,C,340.0,262.0,759.0,315.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0213,Land,2025-07-02,Cairo,New Cairo,30.023834,31.201102,Commercial,461.5,24.7,18.7,8,15386862.27,33340.98,5.48,2.69,D,D,884.0,,1361.0,,Fiber|Sewerage,2
+EG-LAND-0214,Land,2023-07-25,Mansoura,El Mogamma,31.056692,31.389043,Residential,109.4,5,71.1,20,689317.37,6300.89,1.04,0.51,A,D,477.0,422.0,450.0,377.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0215,Building,2025-07-23,Giza,Hadayek October,30.028935,31.217874,Residential,205.1,9.5,21.7,12,3889331.81,18963.1,1.85,0.62,NonCommercial,C,307.0,625.0,,737.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0216,Land,2024-04-18,Alexandria,Agami,31.217012,29.901873,Commercial,1175.4,30.1,39.0,60,33846947.69,28796.11,3.53,1.64,C,D,283.0,1225.0,550.0,201.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0217,Land,2025-06-20,New Administrative Capital,R5,30.02987,31.759261,Mixed Use,1238.2,,,8,47011630.9,37967.72,1.58,0.65,D,C,,,593.0,828.0,Gas|Water,2
+EG-LAND-0218,Land,2023-10-05,Cairo,Maadi,30.053464,31.190349,Mixed Use,401.6,16.0,25.1,25,13323365.14,33175.71,3.54,1.56,B,B,502.0,4567.0,403.0,1142.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0219,Land,2025-11-19,New Administrative Capital,R5,30.023983,31.764957,Residential,158.4,,,20,4514626.51,28501.43,1.8,0.75,D,B,339.0,784.0,400.0,239.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0220,Land,2025-05-07,Mansoura,Toreel,31.076275,31.377036,Agricultural,3515.5,,,10,7503975.37,2134.54,0.32,0.19,NonCommercial,A,574.0,428.0,895.0,1281.0,Sewerage,1
+EG-LAND-0221,Land,2023-10-09,Cairo,6th of October,30.078327,31.226023,Mixed Use,255.0,5,52.0,30,6478823.25,25407.15,3.25,1.52,B,D,1138.0,285.0,,498.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0222,Land,2023-08-23,Cairo,Obour,30.059041,31.247677,Mixed Use,,5,77.4,40,7822792.84,,3.47,2.06,B,B,429.0,496.0,555.0,998.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0223,Apartment,2025-01-18,Cairo,Maadi,30.020976,31.224453,,142.4,6.8,21.0,15,2973622.43,20882.18,1.35,0.8,C,C,,1151.0,332.0,65.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0224,Land,2025-07-18,Tanta,El Nahda,30.75804,30.968406,Agricultural,4089.4,235.0,17.4,6,6032396.62,1475.13,0.3,0.18,C,B,122.0,934.0,126.0,,Electricity|Gas|Sewerage,3
+EG-LAND-0225,Land,2023-10-19,Giza,Mohandessin,30.005292,31.177829,Commercial,313.6,,,10,7222948.1,23032.36,3.4,1.83,B,D,,1777.0,552.0,1416.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0226,Land,2023-12-04,Tanta,El Galaa,30.785231,30.997973,Commercial,223.1,,,15,1665769.46,7466.47,4.07,1.76,A,D,1322.0,614.0,331.0,390.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0227,Land,2025-05-23,Mansoura,El Mashaya,31.058695,31.424828,Industrial,1298.9,,,8,6618908.64,5095.78,1.48,0.83,D,C,267.0,688.0,237.0,1808.0,Electricity|Sewerage|Water,3
+EG-LAND-0228,Land,2026-02-16,Cairo,Heliopolis,30.014726,31.253567,Commercial,191.7,6.7,28.7,25,,,5.71,2.04,B,D,2152.0,448.0,673.0,135.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0229,Villa,2024-08-07,Cairo,New Cairo,30.052976,31.182277,Residential,376.0,5,76.5,15,4287302.4,11402.4,1.56,0.88,B,B,,907.0,640.0,360.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0230,Land,2024-03-01,Tanta,Said District,30.750322,31.037985,Commercial,371.3,10.4,35.7,12,2361248.93,6359.41,3.27,1.3,NonCommercial,D,322.0,2385.0,518.0,138.0,Fiber|Gas,2
+EG-LAND-0231,Land,2026-03-23,Cairo,Maadi,30.086457,31.256555,Mixed Use,339.2,8.2,41.2,6,8731394.69,25741.14,1.57,0.49,C,C,619.0,2973.0,665.0,155.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0232,Land,2026-01-03,Cairo,New Cairo,30.100219,31.282354,Mixed Use,311.9,8.6,36.4,6,5966662.59,19130.05,2.16,0.84,D,D,900.0,357.0,331.0,328.0,Electricity|Fiber|Water,3
+EG-LAND-0233,Land,2024-05-04,Cairo,Heliopolis,30.050281,31.245996,Residential,297.9,5,70.8,12,,,1.21,0.69,B,B,312.0,852.0,992.0,166.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0234,Land,2025-12-14,Tanta,El Bahr,30.759608,31.010786,Commercial,265.6,6.7,39.9,25,2718745.34,10236.24,3.1,1.75,B,B,,509.0,523.0,132.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0235,Land,2025-03-18,New Administrative Capital,Government District,29.995919,31.717327,Residential,470.9,13.5,34.8,15,,,2.28,1.01,A,C,,630.0,131.0,164.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0236,Land,2024-10-21,Alexandria,Sidi Gaber,31.188225,29.899071,Industrial,1516.5,22.0,68.8,20,14775259.5,9743.0,1.14,0.67,C,C,311.0,780.0,487.0,245.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0237,Land,2026-01-07,Alexandria,Mandara,31.24771,29.877734,Agricultural,3962.2,172.3,23.0,60,9806484.62,2475.01,0.27,0.13,C,B,777.0,1262.0,435.0,129.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0238,Land,2025-10-18,New Administrative Capital,R3,30.017756,31.771317,Agricultural,6458.5,,,12,38467278.09,5956.07,0.41,0.23,B,B,745.0,2798.0,215.0,167.0,Fiber|Gas|Water,3
+EG-LAND-0239,Land,2025-10-02,Giza,Haram,30.009475,31.210425,Commercial,356.3,11.6,30.8,6,9140880.06,25655.01,2.49,1.18,B,A,163.0,290.0,380.0,1093.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0240,Land,2026-03-19,Tanta,El Galaa,30.80086,30.960993,Residential,1020.2,52.6,19.4,15,4176831.43,4094.13,1.85,0.79,B,D,1481.0,809.0,,292.0,Fiber|Gas|Sewerage,3
+EG-LAND-0241,Land,2025-08-25,New Administrative Capital,R5,30.021668,31.710324,Commercial,232.7,7.0,33.4,60,9384607.17,40329.21,4.05,1.43,A,B,348.0,1355.0,855.0,791.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0242,Land,2023-05-29,Cairo,6th of October,30.05022,31.199537,Agricultural,3198.2,88.6,36.1,60,,,0.47,0.15,NonCommercial,D,,1014.0,661.0,262.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0243,Land,2025-02-25,New Administrative Capital,R1,30.051435,31.763396,Agricultural,2714.0,96.6,28.1,25,24947250.84,9192.06,0.3,0.12,B,C,182.0,1032.0,836.0,321.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0244,Land,2024-05-24,Mansoura,Toreel,31.09602,31.38636,Residential,306.0,5,68.8,30,2301992.1,7522.85,1.24,0.5,NonCommercial,C,108.0,463.0,423.0,429.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0245,Land,2026-01-06,New Administrative Capital,R1,29.997462,31.7918,Residential,389.3,10.3,37.8,8,8035681.45,20641.36,1.5,0.79,C,B,173.0,773.0,89.0,1555.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0246,Land,2024-11-17,Cairo,Nasr City,30.060213,31.23551,Residential,187.7,5,57.7,6,3364428.65,17924.5,0.93,0.53,C,B,127.0,726.0,641.0,662.0,Fiber|Gas|Water,3
+EG-LAND-0247,Land,2024-09-25,New Administrative Capital,R3,30.01789,31.758736,Residential,184.3,9.0,20.5,30,6001742.4,32565.07,2.09,0.84,B,A,674.0,692.0,205.0,167.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0248,Land,2024-10-16,Cairo,Heliopolis,30.059752,31.26077,Mixed Use,319.2,5,75.1,60,14998410.0,46987.5,1.54,0.47,C,B,236.0,576.0,963.0,355.0,Fiber|Gas|Water,3
+EG-LAND-0249,Land,2024-10-17,Alexandria,Smouha,31.208572,29.929346,Residential,354.0,14.4,24.5,8,3618103.02,10220.63,1.67,0.62,D,C,1624.0,1056.0,271.0,641.0,Electricity|Fiber|Gas,3
+EG-LAND-0250,Land,2024-02-24,Mansoura,Hay El Gamaa,30.961427,31.393306,Residential,356.3,14.0,25.4,25,2843466.4,7980.54,1.34,0.48,C,C,1187.0,819.0,785.0,376.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0251,Land,2024-03-21,Cairo,Sheikh Zayed,30.06572,31.212356,Mixed Use,178.1,5,42.2,25,4510213.3,25324.05,1.92,0.82,C,D,835.0,1401.0,222.0,227.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0252,Land,2024-11-23,Mansoura,Toreel,31.037327,31.363825,Mixed Use,571.5,,,25,4813561.62,8422.68,1.88,0.57,D,B,694.0,,624.0,239.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0253,Land,2023-05-27,New Administrative Capital,R7,30.030524,31.781533,Agricultural,2770.2,77.6,35.7,20,24609099.4,8883.51,0.32,0.14,NonCommercial,D,219.0,933.0,213.0,631.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0254,Land,2023-09-15,Cairo,Obour,30.040372,31.249584,Industrial,4839.7,69.2,69.9,30,66280804.63,13695.23,0.69,0.32,C,C,441.0,392.0,1456.0,304.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0255,Land,2025-10-02,Alexandria,Sidi Gaber,31.17578,29.975083,Mixed Use,225.7,14.8,15.2,10,2553228.99,11312.49,2.48,1.01,B,B,553.0,700.0,528.0,390.0,Fiber|Gas|Sewerage,3
+EG-LAND-0256,Land,2025-08-12,Cairo,Obour,30.027006,31.260423,Residential,362.4,5,72.3,30,8953280.45,24705.52,2.04,0.82,C,D,1749.0,369.0,816.0,142.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0257,Land,2024-02-15,Cairo,Heliopolis,30.026225,31.275224,Agricultural,5950.2,,,,24819652.75,4171.23,0.4,0.18,D,D,617.0,651.0,543.0,223.0,Electricity,1
+EG-LAND-0258,Land,2025-07-07,New Administrative Capital,R5,30.045235,31.708093,Residential,1187.2,,,25,37469444.77,31561.19,1.44,0.62,B,C,511.0,1484.0,476.0,201.0,Fiber|Gas,2
+EG-LAND-0259,Land,2026-02-10,Alexandria,Montaza,31.152745,29.901276,Residential,298.5,5.8,51.6,,3370691.85,11292.1,1.33,0.53,D,C,149.0,,394.0,406.0,Fiber|Sewerage|Water,3
+EG-LAND-0260,Land,2023-07-17,New Administrative Capital,Government District,29.960599,31.758526,Commercial,252.3,,,20,10533676.38,41750.6,5.69,2.86,C,B,248.0,1144.0,358.0,280.0,Fiber|Gas|Sewerage,3
+EG-LAND-0261,Land,2025-06-28,Alexandria,Sidi Gaber,31.233547,29.943095,Industrial,3705.4,104.1,35.6,60,48616404.27,13120.42,1.09,0.36,NonCommercial,C,317.0,219.0,808.0,166.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0262,Apartment,2023-08-06,New Administrative Capital,Financial District,30.020255,31.766023,Residential,596.0,20.5,29.1,15,20867765.88,35013.03,2.3,1.27,C,D,,354.0,338.0,480.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0263,Land,2024-04-23,Alexandria,Mandara,31.254214,29.915897,Mixed Use,333.4,5,79.9,20,6502253.52,19502.86,2.5,1.5,C,B,,174.0,345.0,225.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0264,Land,2025-09-01,New Administrative Capital,Government District,30.026749,31.765625,Agricultural,6530.6,,,30,53598854.6,8207.34,0.39,0.13,C,D,209.0,309.0,187.0,2550.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0265,Land,2023-08-27,New Administrative Capital,R1,30.000462,31.820964,Residential,322.0,15.6,20.6,30,7146542.06,22194.23,1.18,0.42,C,B,597.0,543.0,,482.0,Gas|Sewerage|Water,3
+EG-LAND-0266,Land,2024-02-02,Alexandria,Borg El Arab,31.221826,29.950976,,652.8,,,10,9855040.9,15096.57,4.35,1.35,C,C,939.0,1018.0,408.0,320.0,Fiber|Gas|Sewerage,3
+EG-LAND-0267,Land,2023-09-10,Giza,Hadayek October,30.017083,31.170458,Agricultural,3027.6,66.1,45.8,10,9152949.49,3023.17,0.48,0.23,B,C,1078.0,707.0,,117.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0268,Land,2025-02-15,New Administrative Capital,R3,30.038538,31.746857,Industrial,1916.9,63.1,30.4,6,27322035.76,14253.24,1.26,0.43,D,D,237.0,1553.0,281.0,1181.0,Sewerage|Water,2
+EG-LAND-0269,Land,2024-01-07,Giza,Dokki,30.060284,31.246035,Residential,194.5,7.2,27.2,20,2764805.83,14214.94,1.34,0.63,C,A,437.0,706.0,1037.0,1358.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0270,Land,2023-08-06,New Administrative Capital,R7,30.006028,31.707693,Commercial,505.9,,,30,19645801.88,38833.37,3.01,1.21,NonCommercial,C,233.0,1119.0,1173.0,285.0,Gas|Sewerage,2
+EG-LAND-0271,Land,2025-06-09,Cairo,Sheikh Zayed,30.05697,31.214318,Residential,499.2,6.4,78.2,25,8607780.48,17243.15,2.42,0.91,NonCommercial,A,67.0,1438.0,178.0,701.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0272,Land,2025-12-22,Cairo,6th of October,30.020508,31.259822,Agricultural,6472.7,149.1,43.4,12,35359065.56,5462.8,0.38,0.14,B,C,848.0,3218.0,252.0,262.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0273,Land,2023-04-07,Alexandria,Borg El Arab,31.248126,29.904231,Commercial,324.5,19.0,17.1,30,7525352.95,23190.61,3.5,1.61,C,C,569.0,2014.0,202.0,368.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0274,Land,2025-01-11,Cairo,6th of October,30.009074,31.25565,Residential,448.9,11.6,38.6,25,7019803.93,15637.79,2.34,0.97,B,C,847.0,319.0,312.0,609.0,Fiber|Sewerage|Water,3
+EG-LAND-0275,Apartment,2023-08-09,Cairo,10th of Ramadan,30.035467,31.206083,Commercial,173.0,5,54.1,25,5860067.06,33873.22,5.96,3.21,A,A,366.0,1998.0,221.0,187.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0276,Land,2023-04-04,Mansoura,Hay El Gamaa,31.033822,31.347054,Commercial,363.3,19.2,18.9,40,2541167.24,6994.68,3.06,1.22,D,B,2576.0,152.0,285.0,507.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0277,Apartment,2023-04-29,Giza,Hadayek October,30.021092,31.20383,Commercial,908.6,23.5,38.6,60,26038486.17,28657.81,3.91,2.23,B,B,710.0,306.0,220.0,364.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0278,Land,2026-03-03,Mansoura,El Mogamma,31.035536,31.368923,Mixed Use,626.8,22.1,28.4,30,7944564.64,12674.8,2.92,1.09,C,D,866.0,387.0,2047.0,247.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0279,Land,2025-01-31,New Administrative Capital,Government District,30.010803,31.76949,Residential,123.0,5,45.2,8,2635763.31,21428.97,1.8,0.88,C,D,881.0,530.0,181.0,288.0,Fiber|Water,2
+EG-LAND-0280,Land,2023-04-08,New Administrative Capital,Downtown,30.019848,31.787974,Commercial,514.0,14.6,35.1,15,20794795.2,40456.8,5.07,2.24,C,B,488.0,,356.0,242.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0281,Land,2023-11-30,Cairo,Shorouk,30.076553,31.240118,,4342.1,,,10,50991798.72,11743.58,1.32,0.48,C,D,1009.0,587.0,360.0,186.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0282,Apartment,2024-09-17,Giza,Smart Village Area,30.030634,31.222828,Mixed Use,202.3,5,46.2,40,4245916.91,20988.22,3.7,1.19,C,B,119.0,1477.0,391.0,248.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0283,Land,2025-06-18,Cairo,Heliopolis,30.025116,31.237258,Commercial,288.8,5,61.2,15,7264957.5,25155.67,2.24,1.34,C,C,263.0,746.0,823.0,124.0,Gas,1
+EG-LAND-0284,Land,2025-08-14,Giza,Smart Village Area,29.96046,31.198253,Commercial,476.7,23.0,20.7,8,10479462.94,21983.35,2.03,1.11,C,B,,1406.0,245.0,375.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0285,Land,2025-05-24,New Administrative Capital,Downtown,29.991017,31.770271,Commercial,471.6,21.8,21.6,60,36485348.15,77365.03,2.48,1.11,NonCommercial,C,228.0,1015.0,365.0,346.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0286,Land,2023-11-23,New Administrative Capital,Downtown,29.971722,31.798616,Commercial,458.3,6.0,76.5,6,13146550.9,28685.47,4.78,2.53,B,C,276.0,1061.0,844.0,226.0,Gas|Water,2
+EG-LAND-0287,Land,2025-08-20,Giza,Mohandessin,29.958467,31.210585,Commercial,224.0,5.4,41.2,10,4319873.6,19285.15,5.87,2.58,B,B,1727.0,700.0,314.0,433.0,Electricity|Fiber|Gas,3
+EG-LAND-0288,Land,2025-09-16,Cairo,Obour,29.995024,31.242636,Commercial,494.2,,,60,23030990.09,46602.57,3.5,1.2,D,B,321.0,,144.0,189.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0289,Land,2023-07-16,New Administrative Capital,R3,30.04222,31.776014,Residential,696.2,,,,17792024.54,25555.91,0.96,0.53,NonCommercial,B,,2361.0,301.0,309.0,Fiber|Gas|Sewerage,3
+EG-LAND-0290,Land,2025-07-17,Alexandria,Smouha,31.218074,29.900339,Residential,285.6,5,79.0,40,3908393.16,13684.85,1.72,1.01,B,B,1382.0,1235.0,465.0,321.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0291,Land,2024-07-02,Giza,Smart Village Area,29.988166,31.221402,Agricultural,10710.9,555.0,19.3,10,36087485.61,3369.23,0.16,0.06,NonCommercial,B,193.0,2055.0,315.0,230.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0292,Land,2025-11-08,Alexandria,Sidi Gaber,31.236788,29.884346,Mixed Use,236.8,5,71.9,60,5783314.3,24422.78,2.1,1.17,B,C,,1380.0,359.0,798.0,Gas|Sewerage,2
+EG-LAND-0293,Land,2023-07-12,New Administrative Capital,R7,30.018375,31.765498,,6200.0,106.3,58.3,15,38076494.0,6141.37,0.33,0.17,NonCommercial,C,1877.0,1531.0,915.0,547.0,Sewerage|Water,2
+EG-LAND-0294,Land,2026-02-08,Giza,Faisal,30.017111,31.227413,Mixed Use,443.9,12.2,36.4,25,12171560.44,27419.6,3.38,1.81,D,B,442.0,1663.0,116.0,634.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0295,Land,2024-10-06,Mansoura,Hay El Gamaa,31.04124,31.399863,Residential,147.5,5,43.5,60,1173459.85,7955.66,1.47,0.85,A,A,285.0,466.0,510.0,94.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0296,Building,2024-12-28,Alexandria,Smouha,31.242962,29.844369,Residential,220.1,7.4,29.7,15,1592826.28,7236.83,1.34,0.55,NonCommercial,D,1293.0,922.0,1084.0,952.0,Electricity|Gas|Sewerage,3
+EG-LAND-0297,Villa,2024-12-21,Alexandria,Smouha,31.196989,29.909792,Agricultural,9055.7,177.6,51.0,30,36212476.5,3998.86,0.13,0.05,B,C,,879.0,398.0,,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0298,Land,2024-07-17,Alexandria,Agami,31.181212,29.952785,Industrial,1188.0,,,30,7174676.52,6039.29,1.23,0.49,D,B,,929.0,595.0,349.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0299,Land,2025-09-28,Giza,Faisal,30.041674,31.221047,Residential,251.0,5,79.1,20,3760625.07,14982.57,1.11,0.41,A,D,206.0,666.0,,99.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0300,Land,2025-07-29,Mansoura,Hay El Gamaa,31.05002,31.354229,Commercial,650.3,17.2,37.7,60,8625332.09,13263.62,2.23,1.33,B,D,645.0,2498.0,373.0,211.0,Electricity|Fiber|Water,3
+EG-LAND-0301,Land,2025-02-14,Mansoura,Toreel,31.006097,31.375211,,203.0,6.0,34.0,60,2612829.24,12871.08,3.37,1.59,A,D,405.0,788.0,307.0,119.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0302,Land,2025-12-31,Giza,Haram,30.024675,31.201622,Agricultural,5152.5,,,20,28769602.05,5583.62,0.16,0.06,D,D,685.0,300.0,757.0,44.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0303,Land,2024-09-09,New Administrative Capital,R5,29.990755,31.77459,Agricultural,31158.2,989.1,31.5,25,220625605.72,7080.82,0.44,0.17,B,C,659.0,190.0,231.0,83.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0304,Land,2025-11-14,Mansoura,Hay El Gamaa,31.043048,31.419913,Residential,178.1,7.3,24.3,25,989885.14,5558.03,1.11,0.4,C,B,785.0,482.0,,232.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0305,Land,2025-04-19,Alexandria,Borg El Arab,31.171839,29.914414,Residential,322.1,5,73.6,8,3097155.77,9615.51,2.47,1.21,C,D,186.0,234.0,841.0,182.0,Fiber|Sewerage|Water,3
+EG-LAND-0306,Land,2026-02-18,Cairo,Maadi,30.021364,31.246235,Agricultural,4283.9,102.7,41.7,10,19399426.95,4528.45,0.36,0.17,B,C,126.0,303.0,120.0,154.0,Gas|Sewerage|Water,3
+EG-LAND-0307,Land,2025-05-16,Cairo,Maadi,30.054895,31.197758,Commercial,427.8,5.6,76.3,60,16161680.8,37778.59,5.15,1.68,D,C,197.0,1970.0,612.0,79.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0308,Land,2024-06-24,Mansoura,Hay El Gamaa,30.992152,31.350308,Mixed Use,592.6,9.8,60.7,8,3059516.76,5162.87,3.77,1.24,C,D,143.0,,322.0,105.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0309,Land,2024-05-06,Alexandria,Mandara,31.186625,29.981099,Agricultural,5563.6,233.8,23.8,6,23062624.17,4145.27,0.18,0.07,A,C,421.0,,190.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0310,Land,2025-07-08,Cairo,6th of October,30.091967,31.18633,Residential,481.7,9.2,52.3,20,9831468.1,20409.94,1.74,0.78,C,C,230.0,1103.0,288.0,,Gas|Sewerage,2
+EG-LAND-0311,Land,2025-10-05,Giza,Smart Village Area,30.025492,31.211636,Agricultural,7140.3,105.8,67.5,10,33146058.03,4642.11,0.27,0.14,D,A,605.0,1829.0,587.0,426.0,Electricity|Gas,2
+EG-LAND-0312,Land,2025-11-27,Mansoura,El Mogamma,31.007494,31.391119,Mixed Use,190.5,5,78.3,60,2667672.47,14003.53,3.39,1.08,B,B,1698.0,1192.0,710.0,384.0,Electricity|Sewerage|Water,3
+EG-LAND-0313,Building,2025-11-18,Cairo,Obour,29.97847,31.191847,Residential,395.3,10.3,38.3,60,12639519.85,31974.5,2.05,0.85,D,D,388.0,993.0,111.0,649.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0314,Land,2025-01-12,Giza,Faisal,30.03784,31.225678,Industrial,2365.3,64.1,36.9,60,39225189.08,16583.6,1.45,0.74,B,D,404.0,,212.0,52.0,Electricity|Gas,2
+EG-LAND-0315,Land,2024-09-01,Alexandria,Mandara,31.206699,29.90299,Mixed Use,235.7,10.1,23.3,60,3650861.01,15489.44,2.72,1.2,NonCommercial,D,482.0,2996.0,384.0,1142.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0316,Land,2024-09-13,Cairo,Obour,30.037636,31.207983,Commercial,493.2,10.8,45.8,25,21405723.37,43401.71,4.93,2.57,B,D,173.0,1128.0,,34.0,Electricity|Gas|Water,3
+EG-LAND-0317,Land,2023-08-23,Mansoura,Toreel,30.999449,31.393747,Residential,194.7,5,39.8,6,785889.03,4036.41,1.34,0.69,A,A,447.0,,159.0,357.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0318,Land,2025-12-08,Mansoura,Toreel,31.032824,31.331747,Mixed Use,142.6,5,75.3,,692968.98,4859.53,1.9,1.0,C,D,260.0,372.0,186.0,259.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0319,Land,2024-08-16,New Administrative Capital,R5,29.975043,31.719303,Commercial,253.4,5,50.8,25,8228731.69,32473.29,2.78,1.58,C,B,584.0,934.0,240.0,153.0,Gas|Sewerage|Water,3
+EG-LAND-0320,Land,2025-02-04,New Administrative Capital,Financial District,30.031715,31.80099,Residential,156.5,5,69.1,8,3914024.31,25009.74,1.62,0.78,C,C,409.0,1602.0,408.0,155.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0321,Land,2024-03-09,Cairo,Nasr City,29.968601,31.239921,Mixed Use,,7.9,72.0,25,12064603.21,,2.64,1.49,A,D,445.0,1588.0,630.0,860.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0322,Land,2023-08-22,New Administrative Capital,R5,29.951003,31.806043,Residential,362.4,20.2,17.9,30,10471787.18,28895.66,1.42,0.68,D,C,836.0,705.0,225.0,1531.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0323,Land,2024-08-11,Alexandria,Sidi Gaber,31.21959,29.94559,Residential,382.1,,,60,4750248.1,12431.95,2.3,1.37,D,D,234.0,704.0,816.0,166.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0324,Land,2024-02-27,Tanta,El Galaa,30.757809,30.991386,Mixed Use,535.7,13.2,40.5,,4654006.25,8687.71,3.39,1.33,NonCommercial,D,1499.0,,491.0,1021.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0325,Building,2023-12-28,Cairo,New Cairo,30.048831,31.276088,Residential,407.4,10.3,39.4,15,8917362.68,21888.47,2.49,1.03,C,D,3825.0,1134.0,,228.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0326,Land,2024-07-06,New Administrative Capital,R2,29.975422,31.748701,Commercial,530.1,9.7,54.9,30,,,2.7,1.18,D,B,930.0,254.0,236.0,731.0,Fiber|Gas,2
+EG-LAND-0327,Land,2024-05-05,Tanta,El Bahr,30.777603,31.026766,Residential,295.8,5,61.4,10,1170081.27,3955.65,1.54,0.79,NonCommercial,B,294.0,,129.0,216.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0328,Land,2024-02-27,Alexandria,Sidi Gaber,31.168096,29.906637,Agricultural,2224.5,,,12,5813708.5,2613.49,0.18,0.08,B,D,568.0,480.0,325.0,151.0,Electricity|Fiber|Water,3
+EG-LAND-0329,Land,2025-04-29,Mansoura,Hay El Gamaa,31.053603,31.379425,Mixed Use,461.6,12.0,38.5,8,1589510.37,3443.48,3.0,1.28,D,B,354.0,1870.0,125.0,1354.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0330,Land,2023-08-13,Cairo,6th of October,30.014841,31.233572,Commercial,278.3,,,20,13640401.39,49013.3,3.39,1.33,B,B,766.0,768.0,270.0,188.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0331,Land,2023-08-28,New Administrative Capital,R3,29.98268,31.747774,Industrial,2441.4,34.0,71.9,20,35012874.23,14341.31,0.57,0.31,B,C,73.0,272.0,221.0,367.0,Electricity|Fiber|Gas,3
+EG-LAND-0332,Land,2023-07-31,Alexandria,Montaza,31.176097,29.9287,Residential,133.8,5.8,23.0,30,1654161.37,12362.94,1.74,0.69,B,C,528.0,1327.0,491.0,203.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0333,Land,2025-04-27,Tanta,El Bahr,30.768994,31.052554,Mixed Use,431.7,28.4,15.2,12,2756085.04,6384.26,3.6,1.74,D,C,264.0,735.0,328.0,474.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0334,Land,2024-02-14,New Administrative Capital,R5,29.992417,31.743964,Residential,243.6,5,75.8,15,5443643.94,22346.65,2.24,1.33,B,B,820.0,652.0,385.0,141.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0335,Land,2025-03-17,New Administrative Capital,R1,30.076861,31.767296,Residential,310.7,10.3,30.1,10,5791920.26,18641.52,2.14,0.85,B,C,1555.0,,633.0,510.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0336,Land,2024-09-07,Giza,Mohandessin,29.980967,31.216635,Residential,199.5,5,61.4,60,5677760.03,28459.95,2.08,0.95,D,D,582.0,,233.0,652.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0337,Land,2023-10-23,Alexandria,Mandara,31.218449,29.926541,Industrial,1732.1,32.4,53.4,6,8846440.94,5107.35,0.87,0.35,B,D,424.0,,244.0,240.0,Electricity|Gas|Water,3
+EG-LAND-0338,Land,2025-04-27,Mansoura,El Mogamma,31.054732,31.379462,Residential,154.2,5,51.5,15,905101.57,5869.66,2.5,0.86,NonCommercial,D,518.0,729.0,304.0,814.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0339,Land,2023-11-27,Cairo,New Cairo,30.045679,31.207417,Residential,246.3,9.9,24.9,6,3692283.3,14991.0,1.87,0.74,C,D,978.0,300.0,,297.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0340,Land,2024-07-25,Alexandria,Sidi Gaber,31.151945,29.919041,Residential,115.8,5,76.9,20,,,2.19,0.76,B,C,268.0,1470.0,405.0,342.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0341,Land,2025-04-29,Mansoura,El Mogamma,31.020909,31.357641,Agricultural,4365.3,61.9,70.5,25,10521377.02,2410.23,0.49,0.2,A,C,216.0,,,413.0,Sewerage,1
+EG-LAND-0342,Land,2023-04-20,Mansoura,El Mashaya,31.078102,31.396489,Residential,296.0,6.6,45.1,15,,,1.16,0.51,D,D,521.0,521.0,186.0,733.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0343,Building,2024-07-21,Tanta,El Galaa,30.792565,31.019416,Residential,474.9,27.6,17.2,30,,,1.51,0.67,B,D,329.0,1097.0,313.0,909.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0344,Land,2024-02-28,Cairo,New Cairo,30.037056,31.247739,Mixed Use,207.4,5,78.0,20,5818580.04,28054.87,2.21,0.67,D,A,110.0,1197.0,435.0,49.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0345,Land,2024-01-14,Alexandria,Borg El Arab,31.159385,29.915143,Mixed Use,203.5,5,76.9,6,2955955.53,14525.58,2.84,1.32,NonCommercial,D,390.0,,92.0,239.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0346,Land,2026-02-18,Cairo,New Cairo,30.100674,31.276295,Residential,269.3,10.4,26.0,12,7305715.82,27128.54,0.99,0.43,NonCommercial,D,336.0,1231.0,757.0,175.0,Sewerage|Water,2
+EG-LAND-0347,Land,2026-02-23,New Administrative Capital,R7,30.032287,31.799282,Industrial,1746.0,,,10,31047616.44,17782.14,1.33,0.77,B,B,318.0,1288.0,232.0,328.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0348,Building,2023-12-02,Mansoura,Toreel,31.040894,31.374834,Commercial,206.7,5,45.1,20,2142497.17,10365.25,2.22,0.87,C,C,157.0,989.0,519.0,386.0,Electricity,1
+EG-LAND-0349,Villa,2025-03-19,Mansoura,Toreel,31.044714,31.364108,Agricultural,3781.0,,,15,6417264.44,1697.24,0.14,0.06,D,C,1066.0,523.0,247.0,180.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0350,Land,2024-11-10,Cairo,Heliopolis,30.060252,31.244677,Residential,512.9,9.9,52.0,8,5832267.96,11371.16,1.2,0.51,A,C,600.0,1081.0,,1083.0,Fiber|Sewerage|Water,3
+EG-LAND-0351,Land,2026-03-30,Tanta,El Nahda,30.76432,31.030701,Agricultural,3737.4,119.0,31.4,8,5176336.37,1385.01,0.24,0.1,D,D,150.0,1014.0,963.0,403.0,Electricity,1
+EG-LAND-0352,Land,2024-04-08,Giza,Smart Village Area,30.02997,31.249992,Mixed Use,278.9,,,10,4398361.77,15770.39,3.11,1.35,A,D,490.0,301.0,167.0,177.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0353,Land,2025-06-09,Cairo,Maadi,30.041179,31.272681,,176.3,5,59.8,12,4230713.41,23997.24,2.43,0.97,D,C,1477.0,1471.0,1857.0,366.0,Electricity|Fiber|Gas,3
+EG-LAND-0354,Land,2023-12-30,Cairo,6th of October,30.007567,31.168864,Mixed Use,232.6,6.1,38.2,15,7063315.35,30366.79,2.53,1.51,B,D,2376.0,1560.0,432.0,395.0,Electricity|Fiber|Water,3
+EG-LAND-0355,Land,2025-09-22,New Administrative Capital,R5,29.970399,31.75199,Commercial,435.6,6.5,67.4,15,15824955.96,36329.1,5.01,2.34,C,D,573.0,924.0,650.0,232.0,Fiber|Sewerage|Water,3
+EG-LAND-0356,Land,2023-09-24,Cairo,Maadi,30.04686,31.251637,Residential,456.5,6.1,74.3,15,9530208.98,20876.69,0.92,0.39,D,D,2144.0,1043.0,999.0,207.0,Gas|Water,2
+EG-LAND-0357,Land,2024-09-07,Mansoura,El Mashaya,31.059641,31.36206,Agricultural,5406.4,,,30,11225362.38,2076.31,0.32,0.12,C,B,887.0,1475.0,647.0,414.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0358,Land,2025-06-27,Cairo,Badr City,30.048643,31.227761,Residential,308.7,5,69.5,15,6566073.7,21270.08,2.13,1.13,NonCommercial,B,1874.0,375.0,476.0,254.0,Electricity,1
+EG-LAND-0359,Land,2024-02-15,New Administrative Capital,R2,30.022463,31.738825,Residential,319.8,9.5,33.8,60,11027305.22,34481.88,0.88,0.28,C,A,179.0,1241.0,449.0,561.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0360,Land,2024-09-27,New Administrative Capital,R7,29.928221,31.757173,Commercial,332.1,18.2,18.2,12,8993258.04,27079.97,3.07,0.96,C,D,172.0,854.0,345.0,401.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0361,Land,2024-02-17,Alexandria,Smouha,31.200777,29.914859,Residential,416.1,10.1,41.0,30,3392921.01,8154.1,1.3,0.77,B,D,659.0,1745.0,675.0,689.0,Electricity|Fiber|Water,3
+EG-LAND-0362,Land,2024-08-08,Cairo,Shorouk,30.065932,31.291799,Industrial,2701.4,46.2,58.5,40,45022531.92,16666.37,0.54,0.27,D,B,141.0,1181.0,276.0,527.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0363,Land,2025-09-04,New Administrative Capital,Downtown,30.032754,31.803819,Residential,320.3,7.1,45.3,8,5396283.08,16847.59,2.19,1.31,NonCommercial,A,494.0,712.0,746.0,,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0364,Land,2024-08-29,Alexandria,Smouha,31.217994,29.882485,Residential,236.1,,,30,,,1.19,0.55,A,C,,,571.0,47.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0365,Land,2025-10-26,Mansoura,Hay El Gamaa,31.064914,31.436992,Agricultural,6242.8,88.3,70.7,8,10529293.76,1686.63,0.41,0.13,A,C,523.0,2335.0,272.0,196.0,Fiber|Water,2
+EG-LAND-0366,Land,2025-01-21,Giza,Smart Village Area,30.028182,31.21985,Residential,156.0,5,73.3,20,3569326.8,22880.3,2.47,1.32,NonCommercial,B,1214.0,946.0,325.0,569.0,Electricity|Gas|Sewerage,3
+EG-LAND-0367,Land,2026-02-24,Alexandria,Montaza,31.214749,29.91133,Residential,193.6,5,51.7,8,2306898.88,11915.8,1.05,0.56,D,B,895.0,154.0,595.0,352.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0368,Land,2025-03-08,Cairo,Badr City,30.088968,31.2718,Agricultural,7055.2,239.2,29.5,12,47235128.42,6695.08,0.34,0.14,C,B,972.0,930.0,126.0,106.0,Gas|Sewerage|Water,3
+EG-LAND-0369,Land,2025-06-04,New Administrative Capital,R1,30.022674,31.72157,Industrial,731.4,29.9,24.5,60,19363588.27,26474.69,0.75,0.27,A,D,144.0,483.0,,467.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0370,Land,2023-05-15,Alexandria,Agami,31.172751,29.930689,Agricultural,1238.7,,,6,3202795.11,2585.61,0.36,0.18,NonCommercial,B,1036.0,2376.0,436.0,146.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0371,Land,2023-12-10,Giza,Smart Village Area,29.981274,31.189744,Residential,88.9,5,51.1,30,2050080.23,23060.52,0.99,0.52,NonCommercial,D,1890.0,412.0,320.0,282.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0372,Land,2024-10-07,Alexandria,Mandara,31.159763,29.892183,Commercial,247.3,5,52.6,40,3948725.66,15967.35,5.34,2.63,C,D,1015.0,1564.0,150.0,640.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0373,Land,2023-10-18,Cairo,Badr City,30.009684,31.238899,Agricultural,4122.6,57.3,71.9,20,27551088.44,6682.94,0.41,0.17,C,D,124.0,1169.0,332.0,659.0,Electricity|Sewerage,2
+EG-LAND-0374,Land,2023-09-28,New Administrative Capital,R2,30.061881,31.746291,Agricultural,8583.7,346.1,24.8,6,73252694.94,8533.93,0.48,0.24,C,A,128.0,638.0,626.0,370.0,Electricity|Gas|Sewerage,3
+EG-LAND-0375,Land,2024-08-29,Cairo,6th of October,30.041161,31.211661,Mixed Use,177.1,5,77.6,60,5439137.7,30712.24,2.46,0.85,C,A,225.0,755.0,,889.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0376,Apartment,2024-12-01,Mansoura,El Mashaya,31.009511,31.412486,Commercial,288.2,,,25,4112714.87,14270.35,2.74,1.02,C,C,287.0,758.0,86.0,203.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0377,Land,2024-05-30,Mansoura,Hay El Gamaa,31.056071,31.398203,Commercial,895.4,11.8,75.6,8,6595596.99,7366.09,3.46,2.03,D,B,1359.0,,796.0,173.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0378,Land,2025-07-30,New Administrative Capital,Government District,30.0654,31.719752,Industrial,1562.1,78.9,19.8,6,25034245.84,16026.02,1.12,0.41,B,D,2061.0,616.0,183.0,135.0,Fiber|Gas|Water,3
+EG-LAND-0379,Land,2025-10-05,Giza,Haram,29.972379,31.236255,Residential,571.6,10.4,55.0,10,6230937.29,10900.87,1.75,1.0,D,C,,986.0,552.0,209.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0380,Land,2024-05-10,Giza,Faisal,29.927541,31.203405,Commercial,101.0,,,10,2391259.84,23675.84,5.53,1.73,B,A,986.0,234.0,712.0,150.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0381,Land,2026-01-22,Tanta,El Galaa,30.787836,30.958296,Mixed Use,166.8,5,63.0,20,1036885.51,6216.34,1.87,0.56,D,D,330.0,1005.0,542.0,,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0382,Land,2025-08-28,Cairo,Heliopolis,30.042815,31.216265,Commercial,549.0,19.6,28.0,40,23657667.21,43092.29,3.28,1.72,C,A,372.0,528.0,651.0,126.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0383,Land,2025-03-25,Tanta,Said District,30.756795,30.985313,Residential,210.7,8.0,26.4,12,999417.52,4743.32,2.32,0.92,C,B,248.0,367.0,748.0,182.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0384,Land,2024-01-17,Giza,Haram,29.99537,31.278237,Residential,258.6,8.1,32.0,30,2433777.7,9411.36,1.02,0.31,C,B,3326.0,1112.0,365.0,274.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0385,Land,2023-06-05,New Administrative Capital,R1,29.977332,31.725009,Commercial,254.7,8.9,28.7,,14871102.68,58386.74,5.34,1.86,NonCommercial,C,783.0,282.0,599.0,881.0,Electricity|Sewerage,2
+EG-LAND-0386,Villa,2023-07-28,Cairo,10th of Ramadan,30.034141,31.295179,Residential,643.8,34.4,18.7,8,10507614.31,16321.24,2.27,1.31,C,C,1898.0,,626.0,125.0,Electricity|Water,2
+EG-LAND-0387,Land,2025-06-27,New Administrative Capital,R2,30.030511,31.756442,,262.1,,,10,5536796.98,21124.75,2.14,1.08,D,B,1048.0,931.0,455.0,458.0,Electricity|Sewerage,2
+EG-LAND-0388,Land,2024-03-11,Tanta,El Galaa,30.814329,30.99945,Mixed Use,263.3,5,66.4,60,,,3.85,2.18,C,D,578.0,1412.0,220.0,348.0,Electricity|Sewerage,2
+EG-LAND-0389,Land,2025-10-09,Giza,Mohandessin,30.006867,31.154686,Commercial,428.3,14.4,29.8,10,10427520.29,24346.3,5.63,2.37,B,B,212.0,,1392.0,80.0,Gas|Sewerage,2
+EG-LAND-0390,Land,2023-11-13,Giza,Dokki,30.053247,31.148615,Commercial,567.0,8.1,69.7,20,15215518.71,26835.13,5.25,2.63,NonCommercial,C,1102.0,452.0,649.0,273.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0391,Land,2025-10-20,New Administrative Capital,Government District,30.053093,31.817782,Residential,304.4,5,78.0,8,5901436.28,19387.11,1.37,0.82,D,C,,438.0,355.0,465.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0392,Building,2025-11-21,Tanta,Said District,30.730634,30.99169,Industrial,3620.4,78.9,45.9,10,8879682.67,2452.68,1.09,0.5,B,B,1507.0,570.0,1784.0,432.0,Sewerage,1
+EG-LAND-0393,Land,2023-06-09,New Administrative Capital,R1,30.011086,31.802812,Residential,541.5,10.0,53.9,20,14355284.13,26510.22,2.42,1.08,NonCommercial,D,541.0,302.0,184.0,440.0,Fiber|Sewerage,2
+EG-LAND-0394,Land,2023-10-01,Cairo,Badr City,30.048317,31.225237,Mixed Use,379.4,11.8,32.2,8,11583601.78,30531.37,2.42,1.24,C,C,266.0,489.0,179.0,573.0,Electricity|Fiber|Gas,3
+EG-LAND-0395,Land,2023-05-27,Mansoura,Toreel,31.039984,31.433069,Residential,283.0,5.6,50.5,40,1643723.43,5808.21,0.88,0.39,C,A,246.0,2096.0,990.0,,Gas,1
+EG-LAND-0396,Land,2023-06-13,Cairo,10th of Ramadan,30.026054,31.20006,Commercial,792.4,14.7,54.0,10,24855868.49,31367.83,2.18,1.24,D,B,833.0,,1390.0,114.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0397,Land,2024-01-07,Alexandria,Mandara,31.171156,29.936537,Mixed Use,152.0,,,30,1950556.72,12832.61,2.35,0.98,B,A,,410.0,265.0,91.0,Gas,1
+EG-LAND-0398,Land,2024-01-03,Cairo,Badr City,30.009731,31.228474,Residential,301.8,5,72.2,12,6056443.93,20067.74,2.02,0.67,B,B,265.0,,343.0,359.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0399,Land,2024-07-22,Cairo,6th of October,30.029206,31.212314,Residential,305.7,7.1,42.9,6,7402235.08,24214.05,2.22,0.76,C,C,2709.0,1446.0,348.0,322.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0400,Land,2024-11-08,Cairo,Sheikh Zayed,30.031895,31.198114,Mixed Use,952.5,18.8,50.7,15,24711840.97,25944.19,2.29,0.97,D,B,511.0,1540.0,134.0,282.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0401,Land,2024-08-09,Cairo,Obour,30.036906,31.331383,Residential,441.4,13.5,32.8,15,5866170.69,13289.92,2.44,0.87,C,C,,1016.0,277.0,46.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0402,Land,2024-01-10,Cairo,Shorouk,30.016955,31.205491,Agricultural,2858.9,38.1,75.1,15,9718887.73,3399.52,0.13,0.04,C,C,1403.0,466.0,710.0,,Fiber|Sewerage|Water,3
+EG-LAND-0403,Land,2025-08-23,Mansoura,El Mashaya,31.043399,31.342805,Commercial,409.7,6.7,61.2,6,5233151.36,12773.13,2.21,1.01,B,D,,1378.0,1039.0,253.0,Electricity|Water,2
+EG-LAND-0404,Land,2025-04-21,Alexandria,Montaza,31.184157,29.936002,Agricultural,5318.1,151.5,35.1,20,22810660.43,4289.25,0.48,0.17,B,B,687.0,1632.0,579.0,178.0,Electricity|Fiber|Gas,3
+EG-LAND-0405,Land,2025-04-26,Tanta,El Bahr,30.811481,30.992925,,708.5,,,12,5749102.0,8114.47,3.07,1.74,C,A,410.0,719.0,493.0,118.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0406,Land,2023-05-14,New Administrative Capital,R2,30.067412,31.731477,Commercial,543.0,20.7,26.2,30,23799728.01,43830.07,4.15,2.44,A,C,282.0,379.0,108.0,562.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0407,Land,2025-07-03,Alexandria,Borg El Arab,31.198988,29.926071,Commercial,703.9,11.9,59.3,15,14283010.88,20291.25,2.12,1.22,D,B,72.0,510.0,437.0,312.0,Fiber|Gas,2
+EG-LAND-0408,Land,2025-12-30,Tanta,El Galaa,30.81667,30.981264,Residential,413.7,7.1,58.6,25,1956801.0,4730.0,1.27,0.68,A,C,1111.0,541.0,196.0,532.0,Fiber,1
+EG-LAND-0409,Land,2026-03-25,Tanta,Said District,30.79985,30.962623,Industrial,639.9,,,6,1808472.58,2826.18,1.42,0.55,D,C,,738.0,598.0,,Electricity|Fiber,2
+EG-LAND-0410,Land,2023-08-14,Cairo,Obour,30.084428,31.246504,Commercial,164.6,5,51.5,60,7873575.16,47834.6,3.48,1.66,NonCommercial,C,435.0,469.0,332.0,244.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0411,Land,2026-03-02,New Administrative Capital,R5,29.993287,31.75995,Residential,114.2,,,40,2154348.74,18864.7,2.4,1.03,C,B,920.0,782.0,716.0,398.0,Fiber|Gas,2
+EG-LAND-0412,Land,2025-07-05,Giza,Hadayek October,30.04317,31.232296,Agricultural,8916.2,227.5,39.2,20,39909267.85,4476.04,0.45,0.25,A,B,166.0,797.0,490.0,223.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0413,Land,2024-02-27,Alexandria,Sidi Gaber,31.199638,29.92977,Mixed Use,,5.3,76.3,10,6897081.51,,1.58,0.51,NonCommercial,D,723.0,389.0,271.0,112.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0414,Land,2024-12-23,New Administrative Capital,R2,30.025856,31.748558,Agricultural,5585.6,123.0,45.4,20,45868388.64,8211.9,0.42,0.14,NonCommercial,D,1052.0,441.0,,192.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0415,Land,2024-03-25,Giza,Smart Village Area,30.018085,31.175097,Mixed Use,218.8,,,8,4307690.64,19687.8,3.92,1.53,C,D,912.0,685.0,152.0,987.0,Fiber|Sewerage|Water,3
+EG-LAND-0416,Land,2024-01-09,Tanta,El Bahr,30.80734,31.032992,Commercial,374.5,24.0,15.6,8,2719109.68,7260.64,4.48,2.58,C,C,389.0,812.0,519.0,497.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0417,Apartment,2025-03-23,Tanta,El Bahr,30.793426,31.023455,Mixed Use,730.1,12.2,59.6,6,3875750.45,5308.52,1.52,0.64,A,B,236.0,740.0,169.0,85.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0418,Land,2024-08-27,Mansoura,Toreel,31.075399,31.393278,Residential,592.9,8.0,74.1,,4648691.74,7840.6,0.88,0.37,C,D,,,1441.0,,Electricity|Gas|Sewerage,3
+EG-LAND-0419,Land,2024-11-23,Cairo,10th of Ramadan,30.045669,31.27106,Commercial,173.6,7.5,23.1,30,6469184.9,37264.89,4.53,2.48,C,D,309.0,370.0,,102.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0420,Land,2025-05-30,Cairo,Heliopolis,30.048529,31.256514,Commercial,241.8,11.4,21.2,10,7683543.19,31776.44,5.83,3.36,D,C,1255.0,389.0,1384.0,225.0,Sewerage,1
+EG-LAND-0421,Land,2024-12-15,Alexandria,Borg El Arab,31.174398,29.939988,Agricultural,1760.7,24.4,72.3,60,7932340.85,4505.22,0.14,0.08,B,C,925.0,822.0,382.0,127.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0422,Land,2025-08-15,Alexandria,Montaza,31.179426,29.918293,Mixed Use,466.6,9.2,50.8,25,5659904.66,12130.1,3.02,1.05,C,D,597.0,1232.0,133.0,225.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0423,Land,2025-07-14,Mansoura,Toreel,31.053533,31.338048,Mixed Use,464.6,8.0,58.1,6,4448261.59,9574.39,3.07,0.93,C,C,312.0,571.0,751.0,30.0,Electricity|Sewerage|Water,3
+EG-LAND-0424,Land,2025-09-02,Cairo,Maadi,30.046289,31.283387,Residential,272.0,5,65.5,10,4389258.56,16136.98,1.91,1.14,NonCommercial,A,216.0,553.0,725.0,274.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0425,Land,2024-11-10,Cairo,10th of Ramadan,30.115019,31.262716,Residential,897.3,46.5,19.3,40,18045923.33,20111.36,2.38,0.77,D,D,171.0,534.0,401.0,96.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0426,Apartment,2025-03-11,New Administrative Capital,R7,30.01177,31.725873,Residential,261.1,7.5,34.6,15,5174299.64,19817.31,1.71,0.77,B,C,285.0,627.0,102.0,1168.0,Electricity|Gas,2
+EG-LAND-0427,Land,2024-05-08,Cairo,6th of October,30.022995,31.256936,Agricultural,9441.9,121.7,77.6,60,64679186.64,6850.23,0.3,0.16,C,A,140.0,,323.0,172.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0428,Apartment,2024-09-24,Tanta,Said District,30.732188,31.043618,Agricultural,4139.2,86.8,47.7,20,4604611.65,1112.44,0.34,0.13,NonCommercial,D,,492.0,297.0,1113.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0429,Land,2024-08-24,Tanta,El Bahr,30.815928,31.042518,Commercial,267.9,5.3,50.4,8,2311184.02,8627.04,3.98,1.83,NonCommercial,D,805.0,1443.0,363.0,281.0,Electricity,1
+EG-LAND-0430,Land,2025-04-06,Giza,Smart Village Area,29.953588,31.235571,,172.2,5.4,31.9,15,3114159.51,18084.55,1.02,0.44,NonCommercial,D,951.0,793.0,1051.0,365.0,Fiber|Gas|Water,3
+EG-LAND-0431,Land,2024-03-10,Cairo,Nasr City,29.980256,31.21912,Agricultural,6150.0,,,10,30729828.0,4996.72,0.5,0.29,B,C,1531.0,1074.0,300.0,232.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0432,Land,2024-04-27,New Administrative Capital,R3,30.039849,31.784776,Agricultural,6174.7,89.7,68.8,30,,,0.27,0.09,D,D,283.0,1304.0,1317.0,41.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0433,Land,2025-02-16,Alexandria,Borg El Arab,31.145916,29.908665,Residential,504.6,20.1,25.1,8,6030661.3,11951.37,2.42,1.39,D,B,624.0,2911.0,306.0,287.0,Electricity|Gas|Water,3
+EG-LAND-0434,Land,2024-04-07,Giza,Hadayek October,29.988958,31.225301,Agricultural,6360.2,115.2,55.2,10,24362491.69,3830.46,0.37,0.14,B,C,,5235.0,352.0,463.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0435,Land,2023-08-06,Mansoura,Toreel,31.03955,31.362128,Residential,246.3,7.5,33.0,6,1217633.31,4943.7,1.8,0.78,B,C,388.0,281.0,296.0,428.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0436,Land,2025-09-30,Cairo,Maadi,30.0513,31.245155,Commercial,541.3,17.6,30.8,8,11385525.57,21033.67,3.84,1.54,B,D,2169.0,926.0,1131.0,116.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0437,Land,2024-07-08,Cairo,New Cairo,30.018976,31.263792,Agricultural,6717.4,101.6,66.1,8,28679133.21,4269.38,0.49,0.22,C,C,304.0,779.0,,139.0,Fiber,1
+EG-LAND-0438,Land,2026-01-22,Giza,Faisal,30.01193,31.235755,Agricultural,8493.1,274.9,30.9,20,52484300.48,6179.64,0.34,0.18,C,C,310.0,663.0,198.0,1005.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0439,Land,2024-05-15,Cairo,6th of October,30.023398,31.214488,Residential,159.4,5,57.7,15,3767302.64,23634.27,1.18,0.67,D,D,347.0,4150.0,139.0,123.0,Fiber|Gas|Water,3
+EG-LAND-0440,Land,2023-07-30,Alexandria,Sidi Gaber,31.196614,29.897923,Residential,363.6,5.3,68.1,10,3576864.1,9837.36,1.6,0.76,NonCommercial,B,1758.0,,373.0,288.0,Fiber|Sewerage|Water,3
+EG-LAND-0441,Apartment,2024-01-20,Giza,Haram,30.039083,31.223421,Commercial,540.2,7.8,69.6,30,12918828.98,23914.9,2.89,0.93,C,B,,519.0,,685.0,Fiber|Sewerage|Water,3
+EG-LAND-0442,Land,2023-12-21,Mansoura,Hay El Gamaa,31.044645,31.39233,Agricultural,3436.6,59.1,58.1,15,6728244.21,1957.82,0.29,0.1,C,A,320.0,1906.0,186.0,667.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0443,Land,2025-05-10,New Administrative Capital,Downtown,30.047514,31.768961,Agricultural,5847.7,,,25,38591428.33,6599.42,0.16,0.07,C,D,328.0,528.0,384.0,451.0,Fiber,1
+EG-LAND-0444,Land,2026-02-01,Cairo,Sheikh Zayed,30.054272,31.282316,Residential,324.3,,,30,6562842.89,20236.95,2.2,0.93,D,C,242.0,1144.0,305.0,149.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0445,Land,2023-06-01,Giza,Hadayek October,29.980326,31.216484,Commercial,595.1,11.0,53.9,10,11883046.07,19968.15,2.34,1.39,C,C,727.0,1232.0,413.0,,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0446,Land,2025-12-21,New Administrative Capital,Financial District,30.042212,31.737694,Industrial,2490.1,37.2,66.9,8,36330036.08,14589.79,0.88,0.35,B,A,,521.0,252.0,138.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0447,Land,2026-02-23,Cairo,Nasr City,30.07559,31.216315,Mixed Use,451.3,8.4,53.9,15,13013935.02,28836.55,2.57,1.28,D,B,,644.0,248.0,394.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0448,Land,2026-02-25,Alexandria,Montaza,31.145646,29.949371,Commercial,540.5,26.5,20.4,20,12859932.73,23792.66,4.8,2.02,D,B,117.0,606.0,,,Fiber|Gas|Sewerage,3
+EG-LAND-0449,Land,2024-05-06,Mansoura,El Mashaya,31.035977,31.395144,Mixed Use,248.0,5,57.6,15,2203549.44,8885.28,2.16,1.0,C,C,210.0,3329.0,322.0,449.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0450,Land,2024-06-28,Cairo,Shorouk,29.992952,31.228944,Residential,298.2,,,30,6181307.29,20728.73,1.08,0.41,A,B,2284.0,732.0,149.0,271.0,Electricity|Gas|Water,3
+EG-LAND-0451,Land,2023-04-19,Mansoura,Toreel,31.019716,31.393099,Residential,588.9,26.5,22.2,25,3661014.63,6216.7,2.37,1.31,B,B,448.0,1527.0,150.0,392.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0452,Building,2025-04-03,Giza,Hadayek October,30.065605,31.130414,Commercial,1245.1,17.4,71.7,12,,,2.99,1.39,C,C,237.0,,329.0,233.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0453,Land,2023-08-31,Cairo,New Cairo,30.023196,31.231801,Mixed Use,100.4,5,46.0,40,3708001.92,36932.29,1.79,1.03,D,B,481.0,622.0,442.0,318.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0454,Land,2025-05-28,Cairo,6th of October,30.035644,31.207866,Residential,297.1,5,68.4,6,4939851.99,16626.9,2.31,1.09,B,B,1270.0,1266.0,251.0,772.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0455,Land,2023-09-08,Giza,Haram,30.013456,31.193033,Residential,253.7,6.7,37.9,30,5056441.42,19930.79,2.12,0.98,NonCommercial,B,589.0,845.0,640.0,176.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0456,Land,2025-11-27,Mansoura,Toreel,31.078273,31.382763,Residential,151.2,5,69.2,25,1242590.33,8218.19,2.47,0.92,C,C,249.0,890.0,690.0,785.0,Electricity|Sewerage|Water,3
+EG-LAND-0457,Land,2025-02-09,Cairo,Sheikh Zayed,30.010844,31.314034,Mixed Use,469.6,13.8,34.0,60,19073113.94,40615.66,2.83,0.99,C,C,787.0,1101.0,,363.0,Electricity,1
+EG-LAND-0458,Land,2024-09-17,Giza,Hadayek October,29.975217,31.144599,Residential,117.5,5,75.4,6,1607019.3,13676.76,1.32,0.75,B,C,391.0,1014.0,272.0,375.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0459,Land,2025-06-25,Giza,Mohandessin,30.045218,31.197597,Residential,463.1,17.9,25.8,12,5089084.63,10989.17,1.35,0.48,C,B,863.0,519.0,539.0,672.0,Fiber|Gas|Sewerage,3
+EG-LAND-0460,Land,2025-12-10,Cairo,Heliopolis,30.039346,31.244126,Agricultural,3776.1,,,8,24775105.38,6561.03,0.24,0.09,D,C,374.0,516.0,518.0,251.0,Electricity|Fiber,2
+EG-LAND-0461,Apartment,2025-11-12,Cairo,Sheikh Zayed,30.05925,31.227315,Residential,303.4,5,74.7,12,4938062.55,16275.75,1.36,0.68,B,A,,278.0,382.0,664.0,Fiber|Sewerage|Water,3
+EG-LAND-0462,Land,2023-06-20,Alexandria,Smouha,31.229304,29.936627,Commercial,,6.4,75.7,15,8883097.1,,2.19,1.05,D,B,63.0,,619.0,176.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0463,Land,2024-08-06,New Administrative Capital,Downtown,29.998421,31.726195,Residential,474.0,9.8,48.6,25,10406584.68,21954.82,1.79,0.93,B,C,669.0,402.0,584.0,103.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0464,Land,2024-05-29,Cairo,Badr City,30.044542,31.198881,Residential,,,,8,13707486.2,,1.27,0.73,C,C,385.0,1949.0,246.0,318.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0465,Land,2023-11-17,Mansoura,Hay El Gamaa,31.076133,31.360263,Industrial,1790.0,86.1,20.8,20,7588311.2,4239.28,0.63,0.3,B,C,298.0,1416.0,1060.0,440.0,Gas,1
+EG-LAND-0466,Land,2025-07-24,Giza,Smart Village Area,30.038879,31.21599,Residential,360.8,,,8,5631766.89,15609.11,0.81,0.32,C,C,725.0,430.0,397.0,511.0,Electricity|Sewerage|Water,3
+EG-LAND-0467,Land,2025-03-17,New Administrative Capital,R7,29.999642,31.730881,Commercial,214.6,5.4,39.7,25,9331949.67,43485.32,4.08,1.69,D,C,1945.0,,145.0,,Electricity|Sewerage|Water,3
+EG-LAND-0468,Apartment,2024-07-27,Cairo,Obour,30.024529,31.248381,Agricultural,933.5,,,20,7017315.54,7517.21,0.34,0.18,B,C,,1253.0,191.0,1008.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0469,Land,2024-06-15,New Administrative Capital,R1,30.006209,31.76467,Mixed Use,145.1,,,15,5892831.67,40612.21,3.44,1.82,C,B,985.0,558.0,282.0,238.0,Fiber|Sewerage,2
+EG-LAND-0470,Land,2025-01-01,Cairo,Obour,30.042086,31.214985,,274.4,6.0,45.9,20,5880759.7,21431.34,2.32,1.12,B,D,320.0,1808.0,531.0,332.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0471,Land,2024-11-26,Cairo,Nasr City,30.056641,31.258823,Mixed Use,296.1,6.4,46.4,15,7239843.39,24450.67,3.48,1.24,B,B,111.0,1548.0,595.0,975.0,Fiber|Sewerage,2
+EG-LAND-0472,Land,2023-08-03,Cairo,Badr City,30.082002,31.23854,Industrial,,29.2,57.4,25,17713363.78,,0.74,0.3,B,C,190.0,412.0,178.0,319.0,Electricity|Gas|Water,3
+EG-LAND-0473,Land,2023-05-24,Cairo,Nasr City,30.037001,31.223983,Mixed Use,206.6,8.5,24.3,,3403534.6,16474.03,2.23,1.2,C,D,875.0,1135.0,159.0,274.0,Sewerage|Water,2
+EG-LAND-0474,Land,2024-07-16,Giza,Mohandessin,30.011443,31.176334,Agricultural,3862.6,53.4,72.4,6,16816987.88,4353.8,0.25,0.08,D,B,374.0,547.0,632.0,4296.0,Electricity|Gas|Sewerage,3
+EG-LAND-0475,Land,2024-10-26,Mansoura,Hay El Gamaa,30.987206,31.347069,Industrial,2120.1,,,15,11057572.36,5215.59,0.99,0.48,C,A,,347.0,,300.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0476,Land,2024-09-25,New Administrative Capital,R5,29.949862,31.787055,Commercial,707.5,31.3,22.6,15,27625391.67,39046.49,2.01,0.92,D,D,529.0,213.0,311.0,132.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0477,Land,2023-09-09,Cairo,10th of Ramadan,30.029574,31.23375,Agricultural,8983.6,137.6,65.3,10,51534870.58,5736.55,0.48,0.16,D,B,1184.0,965.0,446.0,1142.0,Electricity|Water,2
+EG-LAND-0478,Land,2026-02-23,Giza,Haram,30.021786,31.230487,Residential,126.3,8.0,15.8,15,,,1.74,0.66,D,D,364.0,348.0,,132.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0479,Land,2024-01-22,New Administrative Capital,R3,30.008098,31.787296,,6904.9,352.3,19.6,60,59906360.01,8675.92,0.24,0.07,B,C,379.0,3136.0,176.0,1191.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0480,Villa,2023-04-28,Cairo,Nasr City,30.052335,31.24571,Residential,271.5,5,72.1,10,5914999.46,21786.37,1.91,1.09,NonCommercial,D,,2459.0,,263.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0481,Land,2024-10-17,Cairo,10th of Ramadan,30.03862,31.239339,Residential,195.6,5,46.9,12,4845986.09,24774.98,2.3,0.97,C,B,2042.0,281.0,1634.0,152.0,Electricity|Fiber,2
+EG-LAND-0482,Land,2023-12-08,Alexandria,Smouha,31.214325,29.916444,Mixed Use,374.9,7.9,47.5,20,5061888.55,13501.97,1.54,0.65,B,C,363.0,573.0,635.0,606.0,Electricity|Fiber|Gas|Sewerage,4
+EG-LAND-0483,Land,2024-12-09,New Administrative Capital,Government District,30.020183,31.754404,Industrial,2089.0,62.0,33.7,10,35391441.09,16941.81,0.66,0.37,A,B,502.0,840.0,153.0,534.0,Electricity,1
+EG-LAND-0484,Villa,2025-09-08,Mansoura,Toreel,31.031135,31.336632,Mixed Use,671.6,36.5,18.4,12,6192051.26,9219.85,3.71,1.29,C,A,182.0,1058.0,,72.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0485,Land,2023-10-18,Alexandria,Smouha,31.180051,29.904003,Mixed Use,279.1,12.2,22.8,20,3896395.09,13960.57,3.94,1.36,C,C,189.0,614.0,923.0,197.0,Electricity|Gas|Sewerage|Water,4
+EG-LAND-0486,Land,2023-11-25,Cairo,Obour,30.031182,31.230499,Industrial,2121.8,,,12,24440271.57,11518.65,0.54,0.32,B,B,985.0,199.0,235.0,49.0,Electricity|Fiber|Sewerage,3
+EG-LAND-0487,Land,2024-03-16,New Administrative Capital,R1,30.037425,31.740657,Commercial,342.4,,,8,8417041.15,24582.48,4.01,1.47,D,B,417.0,298.0,415.0,205.0,Fiber|Gas|Sewerage|Water,4
+EG-LAND-0488,Land,2024-01-28,Mansoura,El Mashaya,31.031152,31.349563,Agricultural,9870.3,329.0,30.0,20,15060498.55,1525.84,0.41,0.23,C,C,632.0,530.0,414.0,523.0,Electricity|Sewerage|Water,3
+EG-LAND-0489,Land,2024-12-22,Alexandria,Borg El Arab,31.14541,29.918125,Residential,,7.5,34.0,6,2511142.9,,1.17,0.52,B,C,1054.0,1483.0,380.0,129.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0490,Land,2025-05-05,Mansoura,El Mashaya,31.015995,31.368162,Commercial,302.8,7.5,40.6,10,2742695.78,9057.78,2.87,1.32,D,D,205.0,314.0,332.0,163.0,Electricity|Fiber|Gas|Water,4
+EG-LAND-0491,Land,2024-10-17,Cairo,6th of October,29.995389,31.288519,Commercial,443.1,5.8,76.3,,12974459.84,29281.11,4.0,1.61,D,C,272.0,987.0,,135.0,Fiber|Gas,2
+EG-LAND-0492,Land,2025-07-09,Mansoura,El Mashaya,31.021304,31.384134,Residential,198.0,7.5,26.4,25,,,1.15,0.64,A,B,,1142.0,322.0,223.0,Electricity|Fiber,2
+EG-LAND-0493,Land,2025-11-06,Alexandria,Borg El Arab,31.190771,29.859463,Residential,175.0,5,74.9,30,2271963.75,12982.65,2.46,1.41,B,D,357.0,,845.0,241.0,Fiber|Sewerage|Water,3
+EG-LAND-0494,Land,2025-01-08,Giza,Dokki,30.011509,31.187547,,169.7,6.7,25.3,40,3205278.33,18887.91,2.46,1.17,C,C,168.0,307.0,2392.0,1503.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0495,Land,2026-02-16,Alexandria,Borg El Arab,31.198118,29.936927,Commercial,637.7,8.5,75.0,30,18422011.52,28888.21,2.69,1.58,C,B,882.0,331.0,1078.0,588.0,Electricity|Gas|Water,3
+EG-LAND-0496,Land,2026-01-23,Giza,Dokki,30.017684,31.239116,Residential,500.5,9.8,51.0,20,8302774.48,16588.96,2.08,0.68,C,B,701.0,1206.0,800.0,271.0,Electricity|Fiber|Gas|Sewerage|Water,5
+EG-LAND-0497,Land,2024-03-01,Mansoura,Hay El Gamaa,31.047785,31.376576,Agricultural,2974.5,111.0,26.8,30,6192254.61,2081.78,0.29,0.1,C,C,352.0,678.0,454.0,409.0,Fiber|Sewerage,2
+EG-LAND-0498,Land,2025-05-12,Cairo,Nasr City,30.011289,31.183637,Agricultural,4352.7,,,12,20154306.81,4630.3,0.29,0.14,B,C,300.0,493.0,216.0,65.0,Fiber,1
+EG-LAND-0499,Villa,2025-08-20,Cairo,Maadi,30.011928,31.194479,Residential,119.5,,,15,2151297.56,18002.49,2.02,1.01,C,B,561.0,2057.0,253.0,396.0,Electricity|Fiber|Sewerage|Water,4
+EG-LAND-0500,Land,2023-07-28,Giza,Smart Village Area,30.048079,31.248563,Commercial,741.0,15.4,48.0,20,17888340.21,24140.81,3.79,1.77,C,D,145.0,593.0,118.0,169.0,Electricity|Fiber|Sewerage|Water,4
