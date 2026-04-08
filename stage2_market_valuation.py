@@ -10,6 +10,7 @@ All weights, brackets, and thresholds are loaded from valuation_config.json.
 import pandas as pd
 import numpy as np
 import math
+import os
 from stage1_benchmark_selection import (
     load_config, score_by_brackets, _pct_diff_score,
     _distance_km, _coord_score
@@ -180,17 +181,30 @@ def _get_factor_functions():
     }
 
 
-def score_property(record: dict, target: dict, config: dict) -> dict:
+# Factors that compare a property relative to the target.
+# These are skipped when scoring the target itself since the comparison
+# is already captured in the comparable's scoring.
+RELATIVE_FACTORS = {"address", "area", "general_location", "far_csr"}
+
+
+def score_property(record: dict, target: dict, config: dict, is_target: bool = False) -> dict:
     """
     Score a single property across active factors only.
     Inactive factors are skipped and their weight redistributed.
+
+    When is_target=True, relative factors (address, area, general_location,
+    far_csr) are skipped — their effect is already captured in the
+    comparable scoring. Only absolute factors are scored for the target.
     """
     weights = config["stage2_factors"]["weights"]
     is_active = config["stage2_factors"].get("is_active", {})
     factor_funcs = _get_factor_functions()
 
-    # Filter to active factors and redistribute weights
-    active_weights = {k: v for k, v in weights.items() if is_active.get(k, True)}
+    # Filter to active factors; also skip relative factors for the target
+    active_weights = {
+        k: v for k, v in weights.items()
+        if is_active.get(k, True) and not (is_target and k in RELATIVE_FACTORS)
+    }
     weight_sum = sum(active_weights.values())
 
     result = {}
@@ -219,14 +233,14 @@ def run_valuation(target: dict, benchmarks: pd.DataFrame, config: dict) -> dict:
       4. Weighted average (using Stage 1 similarity)
       5. Final target price
     """
-    # Score target
-    target_scores = score_property(target, target, config)
+    # Score target (absolute factors only — relative factors are skipped)
+    target_scores = score_property(target, target, config, is_target=True)
 
-    # Score benchmarks
+    # Score benchmarks (all factors including relative ones)
     benchmark_results = []
     for _, row in benchmarks.iterrows():
         rec = _record_to_dict(row)
-        scores = score_property(rec, target, config)
+        scores = score_property(rec, target, config, is_target=False)
         scores["land_id"] = rec["land_id"]
         scores["price_per_sqm"] = rec["price_per_sqm"]
         scores["similarity_score"] = rec.get("similarity_score", 1.0)
@@ -284,30 +298,37 @@ def run_valuation(target: dict, benchmarks: pd.DataFrame, config: dict) -> dict:
 def print_valuation_report(target: dict, result: dict):
     """Print a formatted valuation report."""
     weights = result["weights_used"]
-    factors = list(weights.keys())
+    all_factors = list(weights.keys())
 
     print("\n" + "=" * 80)
     print("STAGE 2: MARKET VALUATION REPORT")
     print("=" * 80)
 
+    # Target: only absolute factors
     ts = result["target_scores"]
-    print(f"\n\U0001f3af TARGET LAND SCORING")
+    target_factors = [f for f in all_factors if f"{f}_multiplier" in ts]
+    print(f"\n\U0001f3af TARGET LAND SCORING (absolute factors only)")
+    print(f"  Relative factors (address, area, general_location, far_csr) skipped")
+    print(f"  \u2014 their effect is captured in the comparable scoring\n")
     print(f"{'Factor':<25} {'Weight':>8} {'Multiplier':>12} {'Score':>8}")
     print("\u2500" * 55)
-    for f in factors:
-        print(f"{f:<25} {weights[f]:>8.2f} {ts[f'{f}_multiplier']:>12.4f} {ts[f'{f}_score']:>8.4f}")
+    for f in target_factors:
+        w = ts[f"{f}_score"] / ts[f"{f}_multiplier"] if ts[f"{f}_multiplier"] > 0 else 0
+        print(f"{f:<25} {w:>8.4f} {ts[f'{f}_multiplier']:>12.4f} {ts[f'{f}_score']:>8.4f}")
     print("\u2500" * 55)
     print(f"{'TOTAL POINTS':<25} {'':>8} {'':>12} {ts['total_points']:>8.4f}")
 
-    print(f"\n\U0001f4ca BENCHMARK SCORING")
+    # Benchmarks: all factors
+    print(f"\n\U0001f4ca BENCHMARK SCORING (all factors)")
     for b in result["benchmark_results"]:
         print(f"\n  {b['land_id']} (price/sqm: {b['price_per_sqm']:,.2f} EGP, "
               f"similarity: {b['similarity_score']:.4f})")
         print(f"  {'Factor':<25} {'Mult':>6} {'Score':>8}")
         sep = "\u2500" * 41
         print(f"  {sep}")
-        for f in factors:
-            print(f"  {f:<25} {b[f'{f}_multiplier']:>6.2f} {b[f'{f}_score']:>8.4f}")
+        for f in all_factors:
+            if f"{f}_multiplier" in b:
+                print(f"  {f:<25} {b[f'{f}_multiplier']:>6.2f} {b[f'{f}_score']:>8.4f}")
         print(f"  {sep}")
         print(f"  {'Total Points':<25} {'':>6} {b['total_points']:>8.4f}")
         print(f"  Point Value = {b['price_per_sqm']:,.2f} / {b['total_points']:.4f} "
@@ -334,25 +355,25 @@ def export_valuation(target: dict, result: dict, output_path: str):
     rows = []
     factors = list(result["weights_used"].keys())
 
-    # Target row
+    # Target row (relative factors will be N/A)
     ts = result["target_scores"]
     row = {"record_type": "target", "land_id": "TARGET", "price_per_sqm": "N/A",
            "similarity_score": "N/A", "point_value": "N/A"}
     for f in factors:
-        row[f"{f}_multiplier"] = ts[f"{f}_multiplier"]
-        row[f"{f}_score"] = ts[f"{f}_score"]
+        row[f"{f}_multiplier"] = ts.get(f"{f}_multiplier", "N/A")
+        row[f"{f}_score"] = ts.get(f"{f}_score", "N/A")
     row["total_points"] = ts["total_points"]
     rows.append(row)
 
-    # Benchmark rows
+    # Benchmark rows (all factors present)
     for b in result["benchmark_results"]:
         row = {"record_type": "benchmark", "land_id": b["land_id"],
                "price_per_sqm": b["price_per_sqm"],
                "similarity_score": b["similarity_score"],
                "point_value": b["point_value"]}
         for f in factors:
-            row[f"{f}_multiplier"] = b[f"{f}_multiplier"]
-            row[f"{f}_score"] = b[f"{f}_score"]
+            row[f"{f}_multiplier"] = b.get(f"{f}_multiplier", "N/A")
+            row[f"{f}_score"] = b.get(f"{f}_score", "N/A")
         row["total_points"] = b["total_points"]
         rows.append(row)
 
@@ -384,6 +405,7 @@ if __name__ == "__main__":
     STAGE2_OUTPUT = "output/stage2_valuation_output.csv"
 
     # Load config
+    os.makedirs("output", exist_ok=True)
     config = load_config(CONFIG_PATH)
 
     target_land = {
